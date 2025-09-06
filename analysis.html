@@ -1,15 +1,25 @@
-<div class="vjs-volume-panel vjs-control vjs-volume-panel-vertical"><button
-        class="vjs-mute-control vjs-control vjs-button vjs-vol-0" type="button" title="Unmute"
-        aria-disabled="false"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span
-            class="vjs-control-text" aria-live="polite">Unmute</span></button>
-    <div class="vjs-volume-control vjs-control vjs-volume-vertical">
-        <div tabindex="0" class="vjs-volume-bar vjs-slider-bar vjs-slider vjs-slider-vertical" role="slider"
-            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Volume Level" aria-live="polite"
-            aria-valuetext="0%">
-            <div class="vjs-mouse-display">
-                <div class="vjs-volume-tooltip" aria-hidden="true"></div>
-            </div>
-            <div class="vjs-volume-level" style="height: 0%;"><span class="vjs-control-text"></span></div>
+<div tabindex="-1" role="dialog" aria-modal="true" aria-label="dialog" class="el-message-box__wrapper"
+    style="z-index: 2003;">
+    <div class="el-message-box">
+        <div class="el-message-box__header">
+            <div class="el-message-box__title"><!----><span></span></div><button type="button" aria-label="Close"
+                class="el-message-box__headerbtn"><i class="el-message-box__close el-icon-close"></i></button>
         </div>
+        <div class="el-message-box__content">
+            <div class="el-message-box__container"><!---->
+                <div class="el-message-box__message">
+                    <p>系统需要进行人脸核验，请退出并进行人脸核验后再继续学习！</p>
+                </div>
+            </div>
+            <div class="el-message-box__input" style="display: none;">
+                <div class="el-input"><!----><input type="text" autocomplete="off" placeholder=""
+                        class="el-input__inner"><!----><!----><!----><!----></div>
+                <div class="el-message-box__errormsg" style="visibility: hidden;"></div>
+            </div>
+        </div>
+        <div class="el-message-box__btns"><!----><button type="button"
+                class="el-button el-button--default el-button--small el-button--primary "><!----><!----><span>
+                    确定
+                </span></button></div>
     </div>
 </div>
