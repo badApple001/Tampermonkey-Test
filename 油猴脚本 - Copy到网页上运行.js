@@ -91,7 +91,13 @@
 
     // 每秒调用当前模块逻辑
     setInterval(() => {
-        remoteModule.tick().catch(e => console.error("[调用错误]", e));
+        if (remoteModule.tick) {
+            // 如果 tick 是 async，返回 Promise
+            const p = remoteModule.tick();
+            if (p && typeof p.catch === "function") {
+                p.catch(e => console.error("[tick错误]", e));
+            }
+        }
     }, 1000);
 
     // 每 30 秒热更一次

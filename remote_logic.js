@@ -6,7 +6,7 @@
         // 1. 检查弹窗
         let dialog = document.querySelector('.dilog');
         if (dialog) {
-            this.handle_question_dialog(dialog);
+            await this.handle_question_dialog(dialog);
         }
 
         // 2. 检查视频播放完成
