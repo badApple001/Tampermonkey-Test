@@ -47,10 +47,26 @@
 
                 const answer = await callAPI(prompt);
                 console.log("[DeepSeek答案]", answer);
+
+                // === 点击逻辑 ===
+                if (answer) {
+                    // 提取字母 (支持 "A,B,C"、"ACD"、"A C D" 等格式)
+                    const letters = answer.match(/[A-Z]/g);
+                    if (letters) {
+                        letters.forEach(letter => {
+                            let opt = options.find(o => o.key === letter);
+                            if (opt && opt.el) {
+                                opt.el.click();
+                                console.log(`已点击选项: ${letter} ${opt.text}`);
+                            }
+                        });
+                    }
+                }
+
             } catch (e) {
                 console.error("[DeepSeek错误]", e);
             } finally {
-                setTimeout(() => this.deepSeekLock = false, 2000);
+                // setTimeout(() => this.deepSeekLock = false, 2000);
             }
         },
 
