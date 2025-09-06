@@ -63,11 +63,42 @@
                         });
                     }
                 }
+                else {
+                    console.log("DeepSeek返回超时, 随机选择答案");
+                    //单选
+                    if (mode == 1) {
+                        let i = Math.floor((Math.random() * options.length));
+                        let opt = options[i];
+                        if (opt && opt.el) {
+                            opt.el.click();
+                        }
+                    }
+                    else {
+                        //多选
+                        options.forEach(opt => {
+                            if (opt && opt.el) {
+                                opt.el.click();
+                            }
+                        });
+                    }
+                }
+
+                // === 点击确定按钮 ===
+                setTimeout(() => {
+                    const confirmBtn = dialog.querySelector('.bottoms .el-button--primary');
+                    if (confirmBtn) {
+                        confirmBtn.click();
+                        console.log("已点击确定按钮");
+                    } else {
+                        console.warn("未找到确定按钮");
+                    }
+                }, 500); // 给选项点击留一点延迟
+
 
             } catch (e) {
                 console.error("[DeepSeek错误]", e);
             } finally {
-                // setTimeout(() => this.deepSeekLock = false, 2000);
+                setTimeout(() => this.deepSeekLock = false, 2000);
             }
         },
 
