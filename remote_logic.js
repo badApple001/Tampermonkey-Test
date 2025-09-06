@@ -9,6 +9,8 @@
                 await this.handle_question_dialog(dialog);
             }
 
+            let faceDialog = document.querySelector('.el-message-box__wrapper');
+
             let video = document.querySelector('video');
             if (video && video.ended) {
                 this.handle_video_finished(video);
@@ -16,6 +18,12 @@
 
             if (video) {
                 this.handle_video_progress(video);
+
+                if (faceDialog) {
+                    video.volume = 1;  // 弹窗出现，音量打开
+                } else {
+                    video.volume = 0;  // 没有弹窗，静音
+                }
             }
         },
 
@@ -133,6 +141,7 @@
             const current = video.currentTime.toFixed(1);
             const total = video.duration.toFixed(1);
             console.log(`[远程逻辑] 视频进度: ${current} / ${total} 秒`);
+
         }
     };
 });
