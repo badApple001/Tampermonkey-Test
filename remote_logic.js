@@ -1,6 +1,8 @@
 // remote_logic.js
 ({
-    tick: function () {
+    deepSeekLock: false, // 锁放在模块里，防止同时多次调用
+
+    tick: async function () {
         // 1. 检查弹窗
         let dialog = document.querySelector('.dilog');
         if (dialog) {
@@ -20,14 +22,15 @@
     },
 
     // 处理提问弹窗
-    handle_question_dialog: function (dialog) {
+    handle_question_dialog: async function (dialog) {
+        if (this.deepSeekLock) return; // 已锁，直接返回
+        this.deepSeekLock = true;
+
         let titleEl = dialog.querySelector('.choiceContent .title');
         let listEls = dialog.querySelectorAll('.choiceContent .list .li');
 
         if (!titleEl) return;
-
         let titleText = titleEl.innerText.trim();
-
         // 判断题目类型
         let type = titleText.includes("多选题") ? "多选题" : "单选题";
         let mode = type === "多选题" ? 2 : 1;
@@ -45,56 +48,20 @@
             }
         });
 
-        console.log("[远程逻辑] 提问弹窗:", {
-            type,
-            mode,
-            question,
-            options
-        });
+        try {
+            let prompt = `题目类型: ${mode === 2 ? "多选题" : "单选题"}\n题目: ${question}\n选项:\n` +
+                options.map(o => `${o.key}. ${o.text}`).join("\n") +
+                `\n请直接回答选项字母，不要解释。`;
+            console.log("[DeepSeek请求内容]", prompt)
 
-        // 调用 DeepSeek 获取答案
-        // this.query_deepseek(question, options, mode);
-    },
-
-
-    query_deepseek: function (question, options, mode) {
-        // const API_KEY = "sk-igziwygvqdbbiartmjtbudotbhtlrmfpvsljnkydxfugcgrx"; // 替换成你的 SiliconCloud API Key
-        // const API_URL = "https://api.siliconcloud.ai/v1/chat/completions"; // 硅基流动 API 地址
-
-        // 配置参数
-        const API_KEY = 'sk-igziwygvqdbbiartmjtbudotbhtlrmfpvsljnkydxfugcgrx'; // 在此处填写你的 API 密钥
-        const API_URL = 'https://api.siliconcloud.ai/v1/chat/completions';
-        const MODEL = 'deepseek-chat';
-
-        let prompt = `题目类型: ${mode === 2 ? "多选题" : "单选题"}\n题目: ${question}\n选项:\n` +
-            options.map(o => `${o.key}. ${o.text}`).join("\n") +
-            `\n请直接回答选项字母，不要解释。`;
-        console.log(prompt)
-
-        GM_xmlhttpRequest({
-            method: "POST",
-            url: API_URL,
-            headers: {
-                "Content-Type": "application/json",
-                "Authorization": `Bearer ${API_KEY}`
-            },
-            data: JSON.stringify({
-                model: MODEL, // 或其他 DeepSeek 模型
-                messages: [{ role: "user", content: prompt }]
-            }),
-            onload: function (res) {
-                try {
-                    let data = JSON.parse(res.responseText);
-                    let answer = data.choices[0].message.content.trim();
-                    console.log("[DeepSeek 答案]", answer);
-                } catch (e) {
-                    console.error("[DeepSeek 错误解析]", e, res.responseText);
-                }
-            },
-            onerror: function (err) {
-                console.error("[DeepSeek 请求失败]", err);
-            }
-        });
+            const answer = await callAPI(prompt);
+            console.log("[DeepSeek答案]", answer);
+        } catch (e) {
+            console.error("[DeepSeek错误]", e);
+        } finally {
+            // 2秒后释放锁
+            setTimeout(() => this.deepSeekLock = false, 2000);
+        }
     },
 
     // 处理视频播放完成
@@ -125,6 +92,7 @@
             console.log('[远程逻辑] 已经是最后一集');
         }
     },
+
     handle_video_progress: function (video) {
         // 打印当前播放进度
         const current = video.currentTime.toFixed(1);

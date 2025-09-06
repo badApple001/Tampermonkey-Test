@@ -13,7 +13,10 @@
 (function () {
     'use strict';
 
+    // 配置参数
     const REMOTE_URL = "https://raw.githubusercontent.com/badApple001/Tampermonkey-Test/main/remote_logic.js";
+    const API_KEY = 'sk-ebf67df8c64241d7bd28ee30d456f797'; // 在此处填写你的 API 密钥
+    const API_URL = 'https://api.deepseek.com/v1/chat/completions';
     let lastCode = null;
 
     // 默认逻辑模块（远程拉取失败时用）
@@ -25,6 +28,33 @@
             }
         }
     };
+
+    // 调用 API
+    async function callDeepSeekAPI(message) {
+        return new Promise((resolve, reject) => {
+            GM_xmlhttpRequest({
+                method: "POST",
+                url: API_URL,
+                headers: {
+                    "Content-Type": "application/json",
+                    "Authorization": `Bearer ${API_KEY}`
+                },
+                data: JSON.stringify({
+                    model: "deepseek-chat",
+                    messages: [{ role: "user", content: message }],
+                    temperature: 0.7
+                }),
+                onload: function (response) {
+                    const data = JSON.parse(response.responseText);
+                    resolve(data.choices[0].message.content);
+                },
+                onerror: function (error) {
+                    reject(error);
+                }
+            });
+        });
+    }
+
 
     // 定时拉取远程逻辑
     function fetchRemoteModule() {
@@ -39,7 +69,8 @@
                         lastCode = newCode;
                         try {
                             // 执行远程代码，要求远程脚本必须返回一个对象
-                            let newModule = eval(newCode);
+                            // let newModule = eval(newCode);
+                            let newModule = eval(`(function(callAPI){return ${newCode}})(callDeepSeekAPI)`);
                             if (newModule && typeof newModule.tick === "function") {
                                 remoteModule = newModule;
                                 console.log("[热更] 模块替换成功");
@@ -60,11 +91,7 @@
 
     // 每秒调用当前模块逻辑
     setInterval(() => {
-        try {
-            remoteModule.tick();
-        } catch (e) {
-            console.error("[调用错误]:", e);
-        }
+        remoteModule.tick().catch(e => console.error("[调用错误]", e));
     }, 1000);
 
     // 每 30 秒热更一次
