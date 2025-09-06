@@ -21,8 +21,10 @@
 
                 if (faceDialog) {
                     video.volume = 1;  // 弹窗出现，音量打开
+                    video.muted = false;
                 } else {
                     video.volume = 0;  // 没有弹窗，静音
+                    video.muted = true;
                 }
             }
         },

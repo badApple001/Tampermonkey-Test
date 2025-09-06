@@ -58,15 +58,17 @@
 
     // 定时拉取远程逻辑
     function fetchRemoteModule() {
+        console.log("[热更] 检测最新代码");
         GM_xmlhttpRequest({
             method: "GET",
             url: REMOTE_URL,
             onload: function (res) {
                 if (res.status === 200) {
-                    const newCode = res.responseText.trim();
-                    if (lastCode !== newCode) {
+                    const newCode = res.responseText;
+                    const strippedNewCode = newCode.replace(/\s+/g, '');
+                    if (lastCode != strippedNewCode) {
                         console.log("[热更] 检测到远程模块更新，正在替换...");
-                        lastCode = newCode;
+                        lastCode = strippedNewCode;
                         try {
                             // 执行远程代码，要求远程脚本必须返回一个对象
                             let newModule = eval(`${newCode}`)(callDeepSeekAPI);
