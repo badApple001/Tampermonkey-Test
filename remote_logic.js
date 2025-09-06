@@ -64,7 +64,9 @@
         let prompt = `题目类型: ${mode === 2 ? "多选题" : "单选题"}\n题目: ${question}\n选项:\n` +
             options.map(o => `${o.key}. ${o.text}`).join("\n") +
             `\n请直接回答选项字母，不要解释。`;
-        console.log(prompt);
+
+        console.log(prompt)
+
         GM_xmlhttpRequest({
             method: "POST",
             url: API_URL,
@@ -73,7 +75,7 @@
                 "Authorization": `Bearer ${API_KEY}`
             },
             data: JSON.stringify({
-                model: "deepseek-chat", // 或其他 DeepSeek 模型
+                model: "deepseek-v3", // 或其他 DeepSeek 模型
                 messages: [{ role: "user", content: prompt }]
             }),
             onload: function (res) {
