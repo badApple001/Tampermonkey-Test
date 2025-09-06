@@ -12,6 +12,11 @@
         if (video && video.ended) {
             this.handle_video_finished(video);
         }
+
+        // 3. 检查视频播放进度
+        if (video) {
+            this.handle_video_progress(video);
+        }
     },
 
     // 处理提问弹窗
@@ -59,7 +64,7 @@
         let prompt = `题目类型: ${mode === 2 ? "多选题" : "单选题"}\n题目: ${question}\n选项:\n` +
             options.map(o => `${o.key}. ${o.text}`).join("\n") +
             `\n请直接回答选项字母，不要解释。`;
-
+        console.log(prompt);
         GM_xmlhttpRequest({
             method: "POST",
             url: API_URL,
@@ -89,6 +94,15 @@
     // 处理视频播放完成
     handle_video_finished: function (video) {
         console.log("[远程逻辑] 视频播放完成:", video.currentSrc);
+
+
+
+    },
+    handle_video_progress: function (video) {
+        // 打印当前播放进度
+        const current = video.currentTime.toFixed(1);
+        const total = video.duration.toFixed(1);
+        console.log(`[远程逻辑] 视频进度: ${current} / ${total} 秒`);
     }
 
 })
