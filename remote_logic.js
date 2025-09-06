@@ -36,8 +36,9 @@
             listEls.forEach(li => {
                 let key = li.querySelector('.unit')?.innerText.trim();
                 let text = li.querySelector('.txt')?.innerText.trim();
-                if (key && text) options.push({ key, text });
+                if (key && text) options.push({ key, text, el: li });
             });
+
 
             try {
                 let prompt = `题目类型: ${mode === 2 ? "多选题" : "单选题"}\n题目: ${question}\n选项:\n` +
