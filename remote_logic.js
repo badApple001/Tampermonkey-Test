@@ -2,14 +2,13 @@
 (function (callAPI) {
     return {
         deepSeekLock: false, // 锁放在模块里，防止同时多次调用
-
+        muted: true,//是否有声音的flag
         tick: async function () {
             let dialog = document.querySelector('.dilog');
             if (dialog) {
                 await this.handle_question_dialog(dialog);
             }
 
-            let faceDialog = document.querySelector('.el-message-box__wrapper');
 
             let video = document.querySelector('video');
             if (video && video.ended) {
@@ -18,15 +17,38 @@
 
             if (video) {
                 this.handle_video_progress(video);
+            }
 
-                if (faceDialog) {
+            let faceDialog = document.querySelector('.el-message-box__wrapper');
+            if (faceDialog) {
+                let msgEl = faceDialog.querySelector('.el-message-box__message p');
+                let msgText = msgEl ? msgEl.innerText.trim() : "";
+                if (muted && msgText.includes("人脸核验")) {
+                    muted = false;
+
+                    // 弹窗存在 + 提示包含 "人脸核验"
                     video.volume = 1;  // 弹窗出现，音量打开
                     video.muted = false;
-                } else {
+                    console.log("[音量控制] 检测到人脸核验弹窗，音量已打开");
+
+
+
+                } else if (!muted) {
+                    muted = true;
+
                     video.volume = 0;  // 没有弹窗，静音
                     video.muted = true;
+                    console.log("[音量控制] 弹窗存在，但不包含人脸核验文字，已静音");
                 }
             }
+            else if (!muted) {
+                muted = true;
+
+                video.volume = 0;  // 没有弹窗，静音
+                video.muted = true;
+                console.log("[音量控制] 没有弹窗，已静音");
+            }
+
         },
 
         handle_question_dialog: async function (dialog) {
