@@ -58,13 +58,17 @@
 
 
     query_deepseek: function (question, options, mode) {
-        const API_KEY = "sk-igziwygvqdbbiartmjtbudotbhtlrmfpvsljnkydxfugcgrx"; // 替换成你的 SiliconCloud API Key
-        const API_URL = "https://api.siliconcloud.ai/v1/chat/completions"; // 硅基流动 API 地址
+        // const API_KEY = "sk-igziwygvqdbbiartmjtbudotbhtlrmfpvsljnkydxfugcgrx"; // 替换成你的 SiliconCloud API Key
+        // const API_URL = "https://api.siliconcloud.ai/v1/chat/completions"; // 硅基流动 API 地址
+
+        // 配置参数
+        const API_KEY = 'sk-igziwygvqdbbiartmjtbudotbhtlrmfpvsljnkydxfugcgrx'; // 在此处填写你的 API 密钥
+        const API_URL = 'https://api.siliconcloud.ai/v1/chat/completions';
+        const MODEL = 'deepseek-chat';
 
         let prompt = `题目类型: ${mode === 2 ? "多选题" : "单选题"}\n题目: ${question}\n选项:\n` +
             options.map(o => `${o.key}. ${o.text}`).join("\n") +
             `\n请直接回答选项字母，不要解释。`;
-
         console.log(prompt)
 
         GM_xmlhttpRequest({
@@ -75,7 +79,7 @@
                 "Authorization": `Bearer ${API_KEY}`
             },
             data: JSON.stringify({
-                model: "deepseek-v3", // 或其他 DeepSeek 模型
+                model: MODEL, // 或其他 DeepSeek 模型
                 messages: [{ role: "user", content: prompt }]
             }),
             onload: function (res) {
@@ -105,10 +109,10 @@
         }
 
         // 找到当前播放的视频索引
-        let currentVideoIndex = -1;
+        let currentIndex = -1;
         items.forEach((item, idx) => {
             if (item.classList.contains('play')) { // 假设播放的li会有一个 playing 类
-                currentVideoIndex = idx;
+                currentIndex = idx;
             }
         });
 
