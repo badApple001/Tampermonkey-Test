@@ -48,7 +48,7 @@
         });
 
         // 调用 DeepSeek 获取答案
-        // this.query_deepseek(question, options, mode);
+        this.query_deepseek(question, options, mode);
     },
 
 
