@@ -97,8 +97,29 @@
     handle_video_finished: function (video) {
         console.log("[远程逻辑] 视频播放完成:", video.currentSrc);
 
+        // 找到所有视频列表项
+        const items = document.querySelectorAll('li.pointer');
+        if (!items.length) {
+            console.log("没有找到视频列表....");
+            return;
+        }
 
+        // 找到当前播放的视频索引
+        let currentVideoIndex = -1;
+        items.forEach((item, idx) => {
+            if (item.classList.contains('play')) { // 假设播放的li会有一个 playing 类
+                currentVideoIndex = idx;
+            }
+        });
 
+        // 播放下一个视频
+        if (currentIndex >= 0 && currentIndex < items.length - 1) {
+            const nextItem = items[currentIndex + 1];
+            nextItem.click();
+            console.log('[远程逻辑] 自动播放下一集');
+        } else {
+            console.log('[远程逻辑] 已经是最后一集');
+        }
     },
     handle_video_progress: function (video) {
         // 打印当前播放进度
