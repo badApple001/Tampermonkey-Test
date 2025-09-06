@@ -69,7 +69,7 @@
                         lastCode = newCode;
                         try {
                             // 执行远程代码，要求远程脚本必须返回一个对象
-                            let newModule = eval(newCode)(callDeepSeekAPI);
+                            let newModule = eval(`${newCode}`)(callDeepSeekAPI);
                             if (newModule && typeof newModule.tick === "function") {
                                 remoteModule = newModule;
                                 console.log("[热更] 模块替换成功");
