@@ -94,6 +94,14 @@
                     }
                 }, 500); // 给选项点击留一点延迟
 
+                // === 点击关闭按钮 ===
+                setTimeout(() => {
+                    const closeBtn = dialog.querySelector('.bottoms .el-button--primary');
+                    if (closeBtn) {
+                        closeBtn.click();
+                    } else {
+                    }
+                }, 1000);
 
             } catch (e) {
                 console.error("[DeepSeek错误]", e);
