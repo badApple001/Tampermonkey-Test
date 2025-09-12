@@ -46,7 +46,7 @@
                 this.play_over_effect();
             }
             else {
-                await this.handle_question_dialog(dialog);
+                await this.handle_question_dialog();
             }
 
 
