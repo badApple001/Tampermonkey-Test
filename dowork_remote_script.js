@@ -4,6 +4,7 @@
         deepSeekLock: false, // 锁放在模块里，防止同时多次调用
         unlockIndex: -1,
         topics: [],
+        end: false,
         tick: async function () {
 
             if (this.unlockIndex === -1) {
@@ -39,11 +40,13 @@
                 this.unlockIndex++;
             }
 
-
             //做完了
             if (this.unlockIndex >= this.topics.length) {
-                console.log("题目已经做完");
-                this.play_over_effect();
+                if (!this.end) {
+                    this.end = true;
+                    console.log("题目已经做完");
+                    this.play_over_effect();
+                }
             }
             else {
                 await this.handle_question_dialog();
