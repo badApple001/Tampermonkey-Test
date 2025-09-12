@@ -2,12 +2,46 @@
 (function (callAPI) {
     return {
         deepSeekLock: false, // 锁放在模块里，防止同时多次调用
-
+        unlockIndex: -1,
+        topics: [],
         tick: async function () {
-            let dialog = document.querySelector('.dilog');
-            if (dialog) {
-                await this.handle_question_dialog(dialog);
+
+            if (this.unlockIndex === -1) {
+                const result = [];
+                document.querySelectorAll(".liBox").forEach(box => {
+                    const titleDiv = box.querySelector(".title");
+                    if (!titleDiv) return;
+
+                    // 获取题目类型（单选题/多选题）
+                    const typeMatch = titleDiv.textContent.match(/【(单选题|多选题)】/);
+                    const type = typeMatch ? typeMatch[1] : "未知类型";
+
+                    // 获取题干
+                    const question = titleDiv.querySelector("span")?.textContent.trim() || "";
+
+                    // 获取选项
+                    const options = [];
+                    box.querySelectorAll(".list .li").forEach(li => {
+                        const key = li.querySelector(".unit")?.textContent.trim();
+                        const text = li.querySelector(".txt")?.textContent.trim();
+                        if (key && text) {
+                            options.push({ key, text });
+                        }
+                    });
+
+                    result.push({
+                        type,
+                        question,
+                        options
+                    });
+                });
+                this.topics = result;
+                this.unlockIndex++;
             }
+
+
+
+
         },
 
         handle_question_dialog: async function (dialog) {
@@ -101,30 +135,17 @@
             }
         },
 
-        handle_video_finished: function (video) {
-            console.log("[远程逻辑] 视频播放完成:", video.currentSrc);
+        play_unlock_effect: function () {
 
-            const items = document.querySelectorAll('li.pointer');
-            if (!items.length) return;
-
-            let currentIndex = -1;
-            items.forEach((item, idx) => {
-                if (item.classList.contains('play')) currentIndex = idx;
-            });
-
-            if (currentIndex >= 0 && currentIndex < items.length - 1) {
-                items[currentIndex + 1].click();
-                console.log('[远程逻辑] 自动播放下一集');
-            } else {
-                console.log('[远程逻辑] 已经是最后一集');
-            }
-        },
-
-        handle_video_progress: function (video) {
-            const current = video.currentTime.toFixed(1);
-            const total = video.duration.toFixed(1);
-            console.log(`[远程逻辑] 视频进度: ${current} / ${total} 秒`);
-
+            // 你可以用网络音频文件，也可以用 base64 音频
+            const audio = new Audio("https://raw.githubusercontent.com/badApple001/Tampermonkey-Test/main/unlock.wav");
+            audio.volume = 0.5; // 设置音量 (0.0 ~ 1.0)
+            // 延时2秒播放
+            setTimeout(() => {
+                audio.play().catch(err => console.log("播放失败:", err));
+            }, 2000);
         }
+
+
     };
 });
