@@ -55,12 +55,14 @@
 
     // 定时拉取远程逻辑
     function fetchRemoteModule() {
-        console.log("[热更] 检测最新代码");
+        console.log("[热更] 拉取远程模块");
         GM_xmlhttpRequest({
             method: "GET",
             url: REMOTE_URL,
             onload: function (res) {
+                console.log("[热更] Requst返回: " + res.status);
                 if (res.status === 200) {
+                    console.log("[热更] 读取远程模块成功")
                     const newCode = res.responseText;
                     const strippedNewCode = newCode.replace(/\s+/g, '');
                     if (lastCode != strippedNewCode) {
