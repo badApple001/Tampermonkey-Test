@@ -22,10 +22,7 @@
     // 默认逻辑模块（远程拉取失败时用）
     let remoteModule = {
         tick: function () {
-            let dialog = document.querySelector('.dilog');
-            if (dialog) {
-                console.log("[本地逻辑] 检测到了 .dilog 弹窗");
-            }
+            console.log("内置Tick触发");
         }
     };
 

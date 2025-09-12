@@ -8,30 +8,6 @@
             if (dialog) {
                 await this.handle_question_dialog(dialog);
             }
-
-
-            let video = document.querySelector('video');
-            if (video && video.ended) {
-                this.handle_video_finished(video);
-            }
-
-            if (video) {
-                this.handle_video_progress(video);
-            }
-
-            let faceDialog = document.querySelector('.el-message-box__wrapper');
-            if (faceDialog) {
-                let msgEl = faceDialog.querySelector('.el-message-box__message p');
-                let msgText = msgEl ? msgEl.innerText.trim() : "";
-                if (msgText.includes("系统需要进行人脸核验") === true) {
-                    // 弹窗存在 + 提示包含 "人脸核验"
-                    video.volume = 1;  // 弹窗出现，音量打开
-                    video.muted = false;
-                    console.log("[音量控制] 检测到人脸核验弹窗，音量已打开");
-                }
-            }
-
-
         },
 
         handle_question_dialog: async function (dialog) {
