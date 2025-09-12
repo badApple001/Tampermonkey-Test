@@ -14,7 +14,7 @@
     'use strict';
 
     // 配置参数
-    const REMOTE_URL = "https://raw.githubusercontent.com/badApple001/Tampermonkey-Test/main/remote_logic.js";
+    const REMOTE_URL = "https://raw.githubusercontent.com/badApple001/Tampermonkey-Test/main/dowork_remote_script.js";
     const API_KEY = 'sk-ebf67df8c64241d7bd28ee30d456f797'; // 在此处填写你的 API 密钥
     const API_URL = 'https://api.deepseek.com/v1/chat/completions';
     let lastCode = null;
