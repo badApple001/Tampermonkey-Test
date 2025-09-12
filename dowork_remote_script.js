@@ -42,7 +42,7 @@
 
             //做完了
             if (this.unlockIndex >= this.topics.length) {
-                if (!this.end) {
+                if (this.end === false) {
                     this.end = true;
                     console.log("题目已经做完");
                     this.play_over_effect();
