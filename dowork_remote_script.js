@@ -25,7 +25,7 @@
                         const key = li.querySelector(".unit")?.textContent.trim();
                         const text = li.querySelector(".txt")?.textContent.trim();
                         if (key && text) {
-                            options.push({ key, text });
+                            options.push({ key, text, li });
                         }
                     });
 
@@ -40,33 +40,29 @@
             }
 
 
+            //做完了
+            if (this.unlockIndex >= this.topics.length) {
+                console.log("题目已经做完");
+                this.play_over_effect();
+            }
+            else {
+                await this.handle_question_dialog(dialog);
+            }
 
 
         },
 
-        handle_question_dialog: async function (dialog) {
+        handle_question_dialog: async function () {
             if (this.deepSeekLock) return; // 已锁，直接返回
             this.deepSeekLock = true;
 
-            let titleEl = dialog.querySelector('.choiceContent .title');
-            let listEls = dialog.querySelectorAll('.choiceContent .list .li');
-
-            if (!titleEl) return;
-            let titleText = titleEl.innerText.trim();
-            let type = titleText.includes("多选题") ? "多选题" : "单选题";
-            let mode = type === "多选题" ? 2 : 1;
-            let question = titleText.replace(/【.*?】\s*\d+、/, "").trim();
-
-            let options = [];
-            listEls.forEach(li => {
-                let key = li.querySelector('.unit')?.innerText.trim();
-                let text = li.querySelector('.txt')?.innerText.trim();
-                if (key && text) options.push({ key, text, el: li });
-            });
-
+            let topic = this.topics[this.unlockIndex];
+            let type = topic.type;
+            let question = topic.question;
+            let options = topic.options;
 
             try {
-                let prompt = `题目类型: ${mode === 2 ? "多选题" : "单选题"}\n题目: ${question}\n选项:\n` +
+                let prompt = `题目类型: ${type}\n题目: ${question}\n选项:\n` +
                     options.map(o => `${o.key}. ${o.text}`).join("\n") +
                     `\n请直接回答选项字母，不要解释。`;
                 console.log("[DeepSeek请求内容]", prompt);
@@ -81,8 +77,8 @@
                     if (letters) {
                         letters.forEach(letter => {
                             let opt = options.find(o => o.key === letter);
-                            if (opt && opt.el) {
-                                opt.el.click();
+                            if (opt && opt.li) {
+                                opt.li.click();
                                 console.log(`已点击选项: ${letter} ${opt.text}`);
                             }
                         });
@@ -94,15 +90,15 @@
                     if (mode == 1) {
                         let i = Math.floor((Math.random() * options.length));
                         let opt = options[i];
-                        if (opt && opt.el) {
-                            opt.el.click();
+                        if (opt && opt.li) {
+                            opt.li.click();
                         }
                     }
                     else {
                         //多选
                         options.forEach(opt => {
-                            if (opt && opt.el) {
-                                opt.el.click();
+                            if (opt && opt.li) {
+                                opt.li.click();
                             }
                         });
                     }
@@ -110,23 +106,9 @@
 
                 // === 点击确定按钮 ===
                 setTimeout(() => {
-                    const confirmBtn = dialog.querySelector('.bottoms .el-button--primary');
-                    if (confirmBtn) {
-                        confirmBtn.click();
-                        console.log("已点击确定按钮");
-                    } else {
-                        console.warn("未找到确定按钮");
-                    }
+                    this.play_unlock_effect();
+                    this.unlockIndex++;
                 }, 500); // 给选项点击留一点延迟
-
-                // === 点击关闭按钮 ===
-                setTimeout(() => {
-                    const closeBtn = dialog.querySelector('.bottoms .el-button--primary');
-                    if (closeBtn) {
-                        closeBtn.click();
-                    } else {
-                    }
-                }, 1000);
 
             } catch (e) {
                 console.error("[DeepSeek错误]", e);
@@ -144,8 +126,17 @@
             setTimeout(() => {
                 audio.play().catch(err => console.log("播放失败:", err));
             }, 2000);
-        }
+        },
+        play_over_effect: function () {
 
+            // 你可以用网络音频文件，也可以用 base64 音频
+            const audio = new Audio("https://raw.githubusercontent.com/badApple001/Tampermonkey-Test/main/over.wav");
+            audio.volume = 0.5; // 设置音量 (0.0 ~ 1.0)
+            // 延时2秒播放
+            setTimeout(() => {
+                audio.play().catch(err => console.log("播放失败:", err));
+            }, 2000);
+        }
 
     };
 });
