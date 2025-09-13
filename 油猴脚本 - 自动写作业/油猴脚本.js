@@ -37,15 +37,19 @@
                     "Authorization": `Bearer ${API_KEY}`
                 },
                 data: JSON.stringify({
-                    model: "deepseek-v3",
+                    model: "deepseek-chat",
                     messages: [{ role: "user", content: message }],
-                    temperature: 0.1,
-                    top_p: 0.9,
-                    max_tokens: 2000
+                    temperature: 0.1
                 }),
                 onload: function (response) {
-                    const data = JSON.parse(response.responseText);
-                    resolve(data.choices[0].message.content);
+                    try {
+                        const data = JSON.parse(response.responseText);
+                        resolve(data.choices[0].message.content);
+                    }
+                    catch (e) {
+                        console.error(e);
+                        console.log(response.responseText);
+                    }
                 },
                 onerror: function (error) {
                     reject(error);

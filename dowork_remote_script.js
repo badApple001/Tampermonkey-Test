@@ -48,14 +48,14 @@
                     return;
                 }
 
-                // 找到倒计时元素（这里用 p.color.time，也可以改成更精确的选择器）
-                const countdownEl = document.querySelector(".countdown p.color.time");
+                // 只取最短交作业的倒计时
+                const countdownEl = document.querySelector(".countdown .shortTime p.text-red");
                 if (!countdownEl) return;
-
-                const timeText = countdownEl.innerText.trim(); // 例如 "01:21:18"
+                const timeText = countdownEl.innerText.trim(); // 例如 "00:01:18"
                 const parts = timeText.split(":").map(Number);
                 if (parts.length !== 3) return;
                 const totalSeconds = parts[0] * 3600 + parts[1] * 60 + parts[2];
+
                 if (totalSeconds <= 0) {
 
                     console.log("题目已经做完");
@@ -94,7 +94,7 @@
                         console.log("未找到提交按钮");
                     }
                 } else {
-                    console.log("剩余秒数:", totalSeconds);
+                    console.log("最短剩余秒数:", totalSeconds);
                 }
             }
             else {
