@@ -1,0 +1,3825 @@
+{
+    "code": 0,
+    "data": {
+        "data": {
+            "Q-65cf96b4-754b-4464-b593-6794a4985ff0": "A",
+            "Q-d9bbb9f8-7992-4faa-8924-d48cc4de9449": "D",
+            "Q-c36e0164-7d05-40a7-8bc0-f7c85225959e": "C",
+            "Q-834c38c9-e748-43bb-95df-2cef3765fa1f": "B",
+            "Q-de27dd89-51cd-44f1-8916-f2d9eab651b6": "A",
+            "Q-492d09b0-b606-4b29-88fd-eff995e9bcdb": "A",
+            "Q-e06c5970-16ff-45fa-a137-10800acab89d": "D",
+            "Q-1fb572e9-5ac4-490f-9b20-623bd79220c5": "B",
+            "Q-0ab47229-6a93-4327-beaa-56ce9efb0bc6": "D",
+            "Q-5b714a26-3e33-4465-89be-ddf2560ca0c2": "A",
+            "Q-d82f5a45-a584-4a30-b3ef-21a47378419e": "B",
+            "u_id": "03ca90c7-13e2-4a13-8ffb-8a2358478e73",
+            "Q-20401cc2-c174-413f-b302-b2ac64b5bc35": "C",
+            "Q-b16acd73-0b64-4b36-a8b2-934a107c5281": "A",
+            "Q-9c935f5f-46c8-402c-8930-34360006387f": "B",
+            "Q-e9f6ffbb-dfa1-4815-8e84-9914def40b87": "B",
+            "Q-7aa62726-7a29-4ce0-90b6-811df38b2146": "A",
+            "Q-8e4c978f-8553-441c-bbda-a2ad0f0bafe3": "B",
+            "Q-d363b90a-5428-45c3-8f4b-8e6af26743a2": "B",
+            "Q-48f56226-f483-4dab-bc10-9cb0331291c9": "D",
+            "Q-3c31ab70-ee10-49f7-960e-da5c5dcb58c4": "D"
+        },
+        "paper_basic": {
+            "id": "59e838f2-6124-4e5c-b2e6-e47649408519",
+            "name": "15040-习近平新时代中国特色社会主义思想概论-平时作业5",
+            "status": 1,
+            "needPhoto": 1,
+            "photoInterval": 100,
+            "starttime": 1751040000000,
+            "endtime": 1758729600000,
+            "start_time": "00:00",
+            "end_time": "23:59",
+            "duration": 90,
+            "showtime": 1483200000000,
+            "totalscore": 40,
+            "passscore": 24,
+            "ordertype": 0,
+            "papertype": 0,
+            "remark": "",
+            "sections": [
+                {
+                    "name": "1",
+                    "remark": "单选题",
+                    "id": "1",
+                    "questions": [
+                        {
+                            "id": "1fb572e9-5ac4-490f-9b20-623bd79220c5",
+                            "type": "1",
+                            "content": "自近代中国沦为半殖民地半封建社会以来，无数仁人志士为了救亡图存奔走呐喊、苦苦求索，各种主义、各种力量、各种阶级纷纷登场，但各种救国方案都以失败而告终。由此可见，近代中国社会要发展，必须有新的政党领导革命，新的革命理论作为指导思想。这种新的政党和新的革命理论是指（）",
+                            "showContent": null,
+                            "key": "C",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">民族资产阶级政党毛泽东思想</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">中国共产党毛泽东思想</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">中国共产党马克思列宁主义</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">民族资产阶级政党马克思列宁主义</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "e9f6ffbb-dfa1-4815-8e84-9914def40b87",
+                            "type": "1",
+                            "content": "(  )是新时代坚持和发展中国特色社会主义的根本立场，是贯穿党治国理 政全部活动的一条红线。",
+                            "showContent": null,
+                            "key": "B",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">把马克思主义基本原理与中国实际相结合</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持以人民为中心</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持和发展中国特色社会主义</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">“五位一体”总体布局</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "20401cc2-c174-413f-b302-b2ac64b5bc35",
+                            "type": "1",
+                            "content": "(  )是立党为公、执政为民的本质要求。",
+                            "showContent": null,
+                            "key": "C",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">贯彻新发展理念</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现高质量发展</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">为民造福</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治立场</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "d363b90a-5428-45c3-8f4b-8e6af26743a2",
+                            "type": "1",
+                            "content": "(  )是贯彻群众路线的有效途径。",
+                            "showContent": null,
+                            "key": "B",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">以人民为中心</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">调查研究</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">把人民对美好生活作为奋斗目标</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">构建新发展格局</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "c36e0164-7d05-40a7-8bc0-f7c85225959e",
+                            "type": "1",
+                            "content": "自古以来，“治国之道，富民为始；民之贫富，国之责任”。中国特色社会主义进入新时代，解决发展不平衡不充分问题、缩小城乡区域发展差距、实现人的全面发展和全体人民共同富裕仍然任重道远。这说明中国特色社会主义新时代是（） ①是承前启后、继往开来的新时代 ②是我国已经站在世界舞台中央的新时代 ③是实现全体人民同等富裕的新时代 ④是奋力实现中华民族伟大复兴中国梦的新时代",
+                            "showContent": null,
+                            "key": "C",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "b16acd73-0b64-4b36-a8b2-934a107c5281",
+                            "type": "1",
+                            "content": "<p>生产资料所有制是指人们在生产资料所有、占有、支配和使用等方面所结成的（）。</p>\r\n",
+                            "showContent": null,
+                            "key": "A",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p>经济关系</p>\r\n"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p>人与自然的关系</p>\r\n"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p>政治关系</p>\r\n"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p>人与人的关系</p>\r\n"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "9c935f5f-46c8-402c-8930-34360006387f",
+                            "type": "1",
+                            "content": "中国特色社会主义进入新时代后，我国经济发展的主要特征是什么？（）",
+                            "showContent": null,
+                            "key": "B",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\">高速增长</p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\">高质量发展</p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\">平稳增长</p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\">跨越式发展</p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "48f56226-f483-4dab-bc10-9cb0331291c9",
+                            "type": "1",
+                            "content": "马克思主义中国化最新理论成果是（）",
+                            "showContent": null,
+                            "key": "D",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">邓小平理论</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">“三个代表”重要理想</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">科学发展观</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">习近平新时代中国特色社会主义思想</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "65cf96b4-754b-4464-b593-6794a4985ff0",
+                            "type": "1",
+                            "content": "“制度稳则国家稳，制度强则国家强”。从鸦片战争后的山河破碎、民不聊生，到今日的民富国强、复兴在望，沧海桑田的历史巨变，昭示的是国之兴衰系于制的历史逻辑，可谓“凡将立国，制度不可不察也”。对此理解正确的是（） ①中国特色社会主义制度具有强大的生命力和巨大的优越性 ②制度优势是一个国家的最大优势，制度竞争是国家间最根本的竞争 ③中国特色社会主义制度是实现中华民族伟大复兴的关键一招 ④中国特色社会主义制度是国家治理体系和治理能力的集中体现",
+                            "showContent": null,
+                            "key": "A",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①②</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">③④</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "8e4c978f-8553-441c-bbda-a2ad0f0bafe3",
+                            "type": "1",
+                            "content": "我们党讲宗旨，讲了很多话，但说到底还是(  )这句话。",
+                            "showContent": null,
+                            "key": "B",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">以人民为中心</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">为人民服务</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持人民主体地位</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">群众路线是根本工作路线</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "0ab47229-6a93-4327-beaa-56ce9efb0bc6",
+                            "type": "1",
+                            "content": "中国特色社会主义进入新时代，这是我国发展新的（）",
+                            "showContent": null,
+                            "key": "D",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">目标任务</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">工作主线</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">路径选择</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">历史方位</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "834c38c9-e748-43bb-95df-2cef3765fa1f",
+                            "type": "1",
+                            "content": "(  )是党的工作的最高裁决者和最终评判者。",
+                            "showContent": null,
+                            "key": "B",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实践</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">国务院</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">党中央</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "d82f5a45-a584-4a30-b3ef-21a47378419e",
+                            "type": "1",
+                            "content": "中国共产党区别于其他政党的显著标志是(  )。",
+                            "showContent": null,
+                            "key": "B",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">深化改革</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民立场</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">促进高质量发展</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实事求是</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "d9bbb9f8-7992-4faa-8924-d48cc4de9449",
+                            "type": "1",
+                            "content": "实现全体人民共同富裕的宏伟目标，最终靠的是(  )。",
+                            "showContent": null,
+                            "key": "D",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">奋斗</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实干</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">发展</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "492d09b0-b606-4b29-88fd-eff995e9bcdb",
+                            "type": "1",
+                            "content": "回望来路，面向未来，正如习近平总书记所说：“只要我们坚持党的领导、坚定走中国特色社会主义道路，就一定能够办成更多像脱贫攻坚这样的大事难事，不断从胜利走向新的胜利。”这表明中国特色社会主义道路是（） ①创造人民美好生活的必由之路 ②新时代我国发展壮大的必由之路 ③实现中华民族伟大复兴的必由之路 ④党走好新的赶考之路的必由之路",
+                            "showContent": null,
+                            "key": "A",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "3c31ab70-ee10-49f7-960e-da5c5dcb58c4",
+                            "type": "1",
+                            "content": "中国新民主主义革命的胜利，使中华民族的历史发生了翻天覆地的巨大变化。中国人民从此站了起来，当家作主，真正成为新国家、新社会的主人。之所以能做出这样的判断，是因为（） ①新民主主义革命的领导阶级为无产阶级 ②新民主主义革命的性质是社会主义革命 ③新民主主义革命走出了一条城市包围农村，武装夺取政权的中国革命道路 ④新民主主义革命的胜利彻底结束了旧中国半殖民地半封建社会的历史",
+                            "showContent": null,
+                            "key": "D",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "5b714a26-3e33-4465-89be-ddf2560ca0c2",
+                            "type": "1",
+                            "content": "习近平在庆祝中国共产党成立100周年大会上的讲话指出，中国共产党团结带领中国人民进行的一切奋斗，一切牺牲，一切创造归结起来，就是一个主题。这个主题是（）",
+                            "showContent": null,
+                            "key": "A",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现中华民族伟大复兴</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">废除帝国主义，在中国的一切特权</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">取得民族独立人民解放</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">结束旧中国半殖民地半封建社会的历史</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "de27dd89-51cd-44f1-8916-f2d9eab651b6",
+                            "type": "1",
+                            "content": "新时代要坚持以人民为中心，在推动社会全面进步中促进(  )的全面发展。",
+                            "showContent": null,
+                            "key": "A",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">经济</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">文化</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "e06c5970-16ff-45fa-a137-10800acab89d",
+                            "type": "1",
+                            "content": "(  )是党执政的最大底气，也是党执政最深厚的根基。",
+                            "showContent": null,
+                            "key": "D",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现共产主义理想</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">物质基础雄厚</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">有丰富经验</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "7aa62726-7a29-4ce0-90b6-811df38b2146",
+                            "type": "1",
+                            "content": "(  )始终是党的生命线和根本工作路线，是我们党永葆青春活力和战斗力 的重要传家宝。",
+                            "showContent": null,
+                            "key": "A",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">群众路线</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">经济路线</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民立场</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治立场</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        }
+                    ],
+                    "rnum": 0,
+                    "rtype": 0,
+                    "rlevel": 0,
+                    "rdbid": null,
+                    "rscore": 0,
+                    "trealType": null,
+                    "tlevel": null,
+                    "tdbid": null,
+                    "tnum": null,
+                    "tscore": null,
+                    "questionIds": [
+                        "1fb572e9-5ac4-490f-9b20-623bd79220c5",
+                        "e9f6ffbb-dfa1-4815-8e84-9914def40b87",
+                        "20401cc2-c174-413f-b302-b2ac64b5bc35",
+                        "d363b90a-5428-45c3-8f4b-8e6af26743a2",
+                        "c36e0164-7d05-40a7-8bc0-f7c85225959e",
+                        "b16acd73-0b64-4b36-a8b2-934a107c5281",
+                        "9c935f5f-46c8-402c-8930-34360006387f",
+                        "48f56226-f483-4dab-bc10-9cb0331291c9",
+                        "65cf96b4-754b-4464-b593-6794a4985ff0",
+                        "8e4c978f-8553-441c-bbda-a2ad0f0bafe3",
+                        "0ab47229-6a93-4327-beaa-56ce9efb0bc6",
+                        "834c38c9-e748-43bb-95df-2cef3765fa1f",
+                        "d82f5a45-a584-4a30-b3ef-21a47378419e",
+                        "d9bbb9f8-7992-4faa-8924-d48cc4de9449",
+                        "492d09b0-b606-4b29-88fd-eff995e9bcdb",
+                        "3c31ab70-ee10-49f7-960e-da5c5dcb58c4",
+                        "5b714a26-3e33-4465-89be-ddf2560ca0c2",
+                        "de27dd89-51cd-44f1-8916-f2d9eab651b6",
+                        "e06c5970-16ff-45fa-a137-10800acab89d",
+                        "7aa62726-7a29-4ce0-90b6-811df38b2146"
+                    ]
+                }
+            ],
+            "departments": [],
+            "cid": null,
+            "schoolId": "7cfafa2a-415d-415d-ba2d-018fde084ef6",
+            "showKey": true,
+            "showMode": 1,
+            "questions": [
+                {
+                    "id": "1fb572e9-5ac4-490f-9b20-623bd79220c5",
+                    "type": "1",
+                    "content": "自近代中国沦为半殖民地半封建社会以来，无数仁人志士为了救亡图存奔走呐喊、苦苦求索，各种主义、各种力量、各种阶级纷纷登场，但各种救国方案都以失败而告终。由此可见，近代中国社会要发展，必须有新的政党领导革命，新的革命理论作为指导思想。这种新的政党和新的革命理论是指（）",
+                    "showContent": null,
+                    "key": "C",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">民族资产阶级政党毛泽东思想</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">中国共产党毛泽东思想</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">中国共产党马克思列宁主义</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">民族资产阶级政党马克思列宁主义</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "e9f6ffbb-dfa1-4815-8e84-9914def40b87",
+                    "type": "1",
+                    "content": "(  )是新时代坚持和发展中国特色社会主义的根本立场，是贯穿党治国理 政全部活动的一条红线。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">把马克思主义基本原理与中国实际相结合</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持以人民为中心</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持和发展中国特色社会主义</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">“五位一体”总体布局</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "20401cc2-c174-413f-b302-b2ac64b5bc35",
+                    "type": "1",
+                    "content": "(  )是立党为公、执政为民的本质要求。",
+                    "showContent": null,
+                    "key": "C",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">贯彻新发展理念</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现高质量发展</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">为民造福</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治立场</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "d363b90a-5428-45c3-8f4b-8e6af26743a2",
+                    "type": "1",
+                    "content": "(  )是贯彻群众路线的有效途径。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">以人民为中心</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">调查研究</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">把人民对美好生活作为奋斗目标</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">构建新发展格局</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "c36e0164-7d05-40a7-8bc0-f7c85225959e",
+                    "type": "1",
+                    "content": "自古以来，“治国之道，富民为始；民之贫富，国之责任”。中国特色社会主义进入新时代，解决发展不平衡不充分问题、缩小城乡区域发展差距、实现人的全面发展和全体人民共同富裕仍然任重道远。这说明中国特色社会主义新时代是（） ①是承前启后、继往开来的新时代 ②是我国已经站在世界舞台中央的新时代 ③是实现全体人民同等富裕的新时代 ④是奋力实现中华民族伟大复兴中国梦的新时代",
+                    "showContent": null,
+                    "key": "C",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "b16acd73-0b64-4b36-a8b2-934a107c5281",
+                    "type": "1",
+                    "content": "<p>生产资料所有制是指人们在生产资料所有、占有、支配和使用等方面所结成的（）。</p>\r\n",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p>经济关系</p>\r\n"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p>人与自然的关系</p>\r\n"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p>政治关系</p>\r\n"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p>人与人的关系</p>\r\n"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "9c935f5f-46c8-402c-8930-34360006387f",
+                    "type": "1",
+                    "content": "中国特色社会主义进入新时代后，我国经济发展的主要特征是什么？（）",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\">高速增长</p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\">高质量发展</p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\">平稳增长</p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\">跨越式发展</p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "48f56226-f483-4dab-bc10-9cb0331291c9",
+                    "type": "1",
+                    "content": "马克思主义中国化最新理论成果是（）",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">邓小平理论</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">“三个代表”重要理想</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">科学发展观</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">习近平新时代中国特色社会主义思想</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "65cf96b4-754b-4464-b593-6794a4985ff0",
+                    "type": "1",
+                    "content": "“制度稳则国家稳，制度强则国家强”。从鸦片战争后的山河破碎、民不聊生，到今日的民富国强、复兴在望，沧海桑田的历史巨变，昭示的是国之兴衰系于制的历史逻辑，可谓“凡将立国，制度不可不察也”。对此理解正确的是（） ①中国特色社会主义制度具有强大的生命力和巨大的优越性 ②制度优势是一个国家的最大优势，制度竞争是国家间最根本的竞争 ③中国特色社会主义制度是实现中华民族伟大复兴的关键一招 ④中国特色社会主义制度是国家治理体系和治理能力的集中体现",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①②</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">③④</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "8e4c978f-8553-441c-bbda-a2ad0f0bafe3",
+                    "type": "1",
+                    "content": "我们党讲宗旨，讲了很多话，但说到底还是(  )这句话。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">以人民为中心</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">为人民服务</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持人民主体地位</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">群众路线是根本工作路线</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "0ab47229-6a93-4327-beaa-56ce9efb0bc6",
+                    "type": "1",
+                    "content": "中国特色社会主义进入新时代，这是我国发展新的（）",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">目标任务</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">工作主线</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">路径选择</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">历史方位</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "834c38c9-e748-43bb-95df-2cef3765fa1f",
+                    "type": "1",
+                    "content": "(  )是党的工作的最高裁决者和最终评判者。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实践</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">国务院</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">党中央</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "d82f5a45-a584-4a30-b3ef-21a47378419e",
+                    "type": "1",
+                    "content": "中国共产党区别于其他政党的显著标志是(  )。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">深化改革</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民立场</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">促进高质量发展</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实事求是</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "d9bbb9f8-7992-4faa-8924-d48cc4de9449",
+                    "type": "1",
+                    "content": "实现全体人民共同富裕的宏伟目标，最终靠的是(  )。",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">奋斗</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实干</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">发展</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "492d09b0-b606-4b29-88fd-eff995e9bcdb",
+                    "type": "1",
+                    "content": "回望来路，面向未来，正如习近平总书记所说：“只要我们坚持党的领导、坚定走中国特色社会主义道路，就一定能够办成更多像脱贫攻坚这样的大事难事，不断从胜利走向新的胜利。”这表明中国特色社会主义道路是（） ①创造人民美好生活的必由之路 ②新时代我国发展壮大的必由之路 ③实现中华民族伟大复兴的必由之路 ④党走好新的赶考之路的必由之路",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "3c31ab70-ee10-49f7-960e-da5c5dcb58c4",
+                    "type": "1",
+                    "content": "中国新民主主义革命的胜利，使中华民族的历史发生了翻天覆地的巨大变化。中国人民从此站了起来，当家作主，真正成为新国家、新社会的主人。之所以能做出这样的判断，是因为（） ①新民主主义革命的领导阶级为无产阶级 ②新民主主义革命的性质是社会主义革命 ③新民主主义革命走出了一条城市包围农村，武装夺取政权的中国革命道路 ④新民主主义革命的胜利彻底结束了旧中国半殖民地半封建社会的历史",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "5b714a26-3e33-4465-89be-ddf2560ca0c2",
+                    "type": "1",
+                    "content": "习近平在庆祝中国共产党成立100周年大会上的讲话指出，中国共产党团结带领中国人民进行的一切奋斗，一切牺牲，一切创造归结起来，就是一个主题。这个主题是（）",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现中华民族伟大复兴</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">废除帝国主义，在中国的一切特权</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">取得民族独立人民解放</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">结束旧中国半殖民地半封建社会的历史</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "de27dd89-51cd-44f1-8916-f2d9eab651b6",
+                    "type": "1",
+                    "content": "新时代要坚持以人民为中心，在推动社会全面进步中促进(  )的全面发展。",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">经济</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">文化</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "e06c5970-16ff-45fa-a137-10800acab89d",
+                    "type": "1",
+                    "content": "(  )是党执政的最大底气，也是党执政最深厚的根基。",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现共产主义理想</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">物质基础雄厚</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">有丰富经验</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "7aa62726-7a29-4ce0-90b6-811df38b2146",
+                    "type": "1",
+                    "content": "(  )始终是党的生命线和根本工作路线，是我们党永葆青春活力和战斗力 的重要传家宝。",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">群众路线</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">经济路线</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民立场</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治立场</span></p>"
+                        }
+                    ],
+                    "delete": false
+                }
+            ],
+            "questionCount": 20,
+            "allQuestions": [
+                {
+                    "id": "1fb572e9-5ac4-490f-9b20-623bd79220c5",
+                    "type": "1",
+                    "content": "自近代中国沦为半殖民地半封建社会以来，无数仁人志士为了救亡图存奔走呐喊、苦苦求索，各种主义、各种力量、各种阶级纷纷登场，但各种救国方案都以失败而告终。由此可见，近代中国社会要发展，必须有新的政党领导革命，新的革命理论作为指导思想。这种新的政党和新的革命理论是指（）",
+                    "showContent": null,
+                    "key": "C",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">民族资产阶级政党毛泽东思想</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">中国共产党毛泽东思想</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">中国共产党马克思列宁主义</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">民族资产阶级政党马克思列宁主义</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "e9f6ffbb-dfa1-4815-8e84-9914def40b87",
+                    "type": "1",
+                    "content": "(  )是新时代坚持和发展中国特色社会主义的根本立场，是贯穿党治国理 政全部活动的一条红线。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">把马克思主义基本原理与中国实际相结合</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持以人民为中心</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持和发展中国特色社会主义</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">“五位一体”总体布局</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "20401cc2-c174-413f-b302-b2ac64b5bc35",
+                    "type": "1",
+                    "content": "(  )是立党为公、执政为民的本质要求。",
+                    "showContent": null,
+                    "key": "C",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">贯彻新发展理念</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现高质量发展</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">为民造福</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治立场</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "d363b90a-5428-45c3-8f4b-8e6af26743a2",
+                    "type": "1",
+                    "content": "(  )是贯彻群众路线的有效途径。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">以人民为中心</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">调查研究</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">把人民对美好生活作为奋斗目标</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">构建新发展格局</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "c36e0164-7d05-40a7-8bc0-f7c85225959e",
+                    "type": "1",
+                    "content": "自古以来，“治国之道，富民为始；民之贫富，国之责任”。中国特色社会主义进入新时代，解决发展不平衡不充分问题、缩小城乡区域发展差距、实现人的全面发展和全体人民共同富裕仍然任重道远。这说明中国特色社会主义新时代是（） ①是承前启后、继往开来的新时代 ②是我国已经站在世界舞台中央的新时代 ③是实现全体人民同等富裕的新时代 ④是奋力实现中华民族伟大复兴中国梦的新时代",
+                    "showContent": null,
+                    "key": "C",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "b16acd73-0b64-4b36-a8b2-934a107c5281",
+                    "type": "1",
+                    "content": "<p>生产资料所有制是指人们在生产资料所有、占有、支配和使用等方面所结成的（）。</p>\r\n",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p>经济关系</p>\r\n"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p>人与自然的关系</p>\r\n"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p>政治关系</p>\r\n"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p>人与人的关系</p>\r\n"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "9c935f5f-46c8-402c-8930-34360006387f",
+                    "type": "1",
+                    "content": "中国特色社会主义进入新时代后，我国经济发展的主要特征是什么？（）",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\">高速增长</p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\">高质量发展</p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\">平稳增长</p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\">跨越式发展</p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "48f56226-f483-4dab-bc10-9cb0331291c9",
+                    "type": "1",
+                    "content": "马克思主义中国化最新理论成果是（）",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">邓小平理论</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">“三个代表”重要理想</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">科学发展观</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">习近平新时代中国特色社会主义思想</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "65cf96b4-754b-4464-b593-6794a4985ff0",
+                    "type": "1",
+                    "content": "“制度稳则国家稳，制度强则国家强”。从鸦片战争后的山河破碎、民不聊生，到今日的民富国强、复兴在望，沧海桑田的历史巨变，昭示的是国之兴衰系于制的历史逻辑，可谓“凡将立国，制度不可不察也”。对此理解正确的是（） ①中国特色社会主义制度具有强大的生命力和巨大的优越性 ②制度优势是一个国家的最大优势，制度竞争是国家间最根本的竞争 ③中国特色社会主义制度是实现中华民族伟大复兴的关键一招 ④中国特色社会主义制度是国家治理体系和治理能力的集中体现",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①②</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">③④</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "8e4c978f-8553-441c-bbda-a2ad0f0bafe3",
+                    "type": "1",
+                    "content": "我们党讲宗旨，讲了很多话，但说到底还是(  )这句话。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">以人民为中心</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">为人民服务</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持人民主体地位</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">群众路线是根本工作路线</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "0ab47229-6a93-4327-beaa-56ce9efb0bc6",
+                    "type": "1",
+                    "content": "中国特色社会主义进入新时代，这是我国发展新的（）",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">目标任务</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">工作主线</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">路径选择</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">历史方位</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "834c38c9-e748-43bb-95df-2cef3765fa1f",
+                    "type": "1",
+                    "content": "(  )是党的工作的最高裁决者和最终评判者。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实践</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">国务院</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">党中央</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "d82f5a45-a584-4a30-b3ef-21a47378419e",
+                    "type": "1",
+                    "content": "中国共产党区别于其他政党的显著标志是(  )。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">深化改革</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民立场</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">促进高质量发展</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实事求是</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "d9bbb9f8-7992-4faa-8924-d48cc4de9449",
+                    "type": "1",
+                    "content": "实现全体人民共同富裕的宏伟目标，最终靠的是(  )。",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">奋斗</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实干</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">发展</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "492d09b0-b606-4b29-88fd-eff995e9bcdb",
+                    "type": "1",
+                    "content": "回望来路，面向未来，正如习近平总书记所说：“只要我们坚持党的领导、坚定走中国特色社会主义道路，就一定能够办成更多像脱贫攻坚这样的大事难事，不断从胜利走向新的胜利。”这表明中国特色社会主义道路是（） ①创造人民美好生活的必由之路 ②新时代我国发展壮大的必由之路 ③实现中华民族伟大复兴的必由之路 ④党走好新的赶考之路的必由之路",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "3c31ab70-ee10-49f7-960e-da5c5dcb58c4",
+                    "type": "1",
+                    "content": "中国新民主主义革命的胜利，使中华民族的历史发生了翻天覆地的巨大变化。中国人民从此站了起来，当家作主，真正成为新国家、新社会的主人。之所以能做出这样的判断，是因为（） ①新民主主义革命的领导阶级为无产阶级 ②新民主主义革命的性质是社会主义革命 ③新民主主义革命走出了一条城市包围农村，武装夺取政权的中国革命道路 ④新民主主义革命的胜利彻底结束了旧中国半殖民地半封建社会的历史",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "5b714a26-3e33-4465-89be-ddf2560ca0c2",
+                    "type": "1",
+                    "content": "习近平在庆祝中国共产党成立100周年大会上的讲话指出，中国共产党团结带领中国人民进行的一切奋斗，一切牺牲，一切创造归结起来，就是一个主题。这个主题是（）",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现中华民族伟大复兴</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">废除帝国主义，在中国的一切特权</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">取得民族独立人民解放</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">结束旧中国半殖民地半封建社会的历史</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "de27dd89-51cd-44f1-8916-f2d9eab651b6",
+                    "type": "1",
+                    "content": "新时代要坚持以人民为中心，在推动社会全面进步中促进(  )的全面发展。",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">经济</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">文化</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "e06c5970-16ff-45fa-a137-10800acab89d",
+                    "type": "1",
+                    "content": "(  )是党执政的最大底气，也是党执政最深厚的根基。",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现共产主义理想</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">物质基础雄厚</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">有丰富经验</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "7aa62726-7a29-4ce0-90b6-811df38b2146",
+                    "type": "1",
+                    "content": "(  )始终是党的生命线和根本工作路线，是我们党永葆青春活力和战斗力 的重要传家宝。",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">群众路线</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">经济路线</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民立场</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治立场</span></p>"
+                        }
+                    ],
+                    "delete": false
+                }
+            ],
+            "questionIds": [
+                "1fb572e9-5ac4-490f-9b20-623bd79220c5",
+                "e9f6ffbb-dfa1-4815-8e84-9914def40b87",
+                "20401cc2-c174-413f-b302-b2ac64b5bc35",
+                "d363b90a-5428-45c3-8f4b-8e6af26743a2",
+                "c36e0164-7d05-40a7-8bc0-f7c85225959e",
+                "b16acd73-0b64-4b36-a8b2-934a107c5281",
+                "9c935f5f-46c8-402c-8930-34360006387f",
+                "48f56226-f483-4dab-bc10-9cb0331291c9",
+                "65cf96b4-754b-4464-b593-6794a4985ff0",
+                "8e4c978f-8553-441c-bbda-a2ad0f0bafe3",
+                "0ab47229-6a93-4327-beaa-56ce9efb0bc6",
+                "834c38c9-e748-43bb-95df-2cef3765fa1f",
+                "d82f5a45-a584-4a30-b3ef-21a47378419e",
+                "d9bbb9f8-7992-4faa-8924-d48cc4de9449",
+                "492d09b0-b606-4b29-88fd-eff995e9bcdb",
+                "3c31ab70-ee10-49f7-960e-da5c5dcb58c4",
+                "5b714a26-3e33-4465-89be-ddf2560ca0c2",
+                "de27dd89-51cd-44f1-8916-f2d9eab651b6",
+                "e06c5970-16ff-45fa-a137-10800acab89d",
+                "7aa62726-7a29-4ce0-90b6-811df38b2146"
+            ]
+        },
+        "check": {
+            "Q-1fb572e9-5ac4-490f-9b20-623bd79220c5": 0,
+            "Q-e9f6ffbb-dfa1-4815-8e84-9914def40b87": 2,
+            "Q-20401cc2-c174-413f-b302-b2ac64b5bc35": 2,
+            "Q-d363b90a-5428-45c3-8f4b-8e6af26743a2": 2,
+            "Q-c36e0164-7d05-40a7-8bc0-f7c85225959e": 2,
+            "Q-b16acd73-0b64-4b36-a8b2-934a107c5281": 2,
+            "Q-9c935f5f-46c8-402c-8930-34360006387f": 2,
+            "Q-48f56226-f483-4dab-bc10-9cb0331291c9": 2,
+            "Q-65cf96b4-754b-4464-b593-6794a4985ff0": 2,
+            "Q-8e4c978f-8553-441c-bbda-a2ad0f0bafe3": 2,
+            "Q-0ab47229-6a93-4327-beaa-56ce9efb0bc6": 2,
+            "Q-834c38c9-e748-43bb-95df-2cef3765fa1f": 2,
+            "Q-d82f5a45-a584-4a30-b3ef-21a47378419e": 2,
+            "Q-d9bbb9f8-7992-4faa-8924-d48cc4de9449": 2,
+            "Q-492d09b0-b606-4b29-88fd-eff995e9bcdb": 2,
+            "Q-3c31ab70-ee10-49f7-960e-da5c5dcb58c4": 2,
+            "Q-5b714a26-3e33-4465-89be-ddf2560ca0c2": 2,
+            "Q-de27dd89-51cd-44f1-8916-f2d9eab651b6": 2,
+            "Q-e06c5970-16ff-45fa-a137-10800acab89d": 2,
+            "Q-7aa62726-7a29-4ce0-90b6-811df38b2146": 2
+        },
+        "is_show_zhcy_subanswer": 0,
+        "branch": {
+            "b_degree_code": null,
+            "b_cjdc_gratis_count_student": 0,
+            "b_order": 1,
+            "b_dc_gratis_count_org": null,
+            "b_anti_cheat": 0,
+            "b_dc_gratis_count_teacher": null,
+            "b_thesis_template": null,
+            "b_is_thesis_mark": null,
+            "b_dc_gzd_schoolcode": null,
+            "b_type": "helplearn",
+            "b_name": "武汉交通专修学院",
+            "b_thesis_pattern": "1",
+            "ai_evaluation_enable": null,
+            "b_pid": "0",
+            "b_dc_fee": null,
+            "b_canzks": 0,
+            "b_dc_gzd_username": null,
+            "b_category": null,
+            "b_id": "26931e59-0634-425e-97de-539a2b88f4b3",
+            "b_dc_userid": null,
+            "b_subdomain": null,
+            "b_dc_zw_fee": null,
+            "b_modifyor": "dck",
+            "b_code": "211",
+            "b_is_society": 0,
+            "b_practice_pattern": 1,
+            "b_fv_key": null,
+            "ai_evaluation_bs_app_key": null,
+            "dc_mode": null,
+            "ai_evaluation_app_key": null,
+            "b_cjdc_zw_gratis_count": null,
+            "b_is_verify_aptitude": 1,
+            "b_cjdc_gzd_gratis_count": null,
+            "ai_evaluation_app_id": null,
+            "b_remark": null,
+            "b_is_coerce_fc": 0,
+            "ai_evaluation_bs_amount": null,
+            "b_is_college_check": 0,
+            "b_dc_gzd_fee": null,
+            "b_dc_gzd_gratis_count_student": null,
+            "b_dc_gzd_gratis_count_teacher": null,
+            "b_status": 1,
+            "ai_evaluation_amount": null,
+            "b_dc_zw_pwd": null,
+            "ai_evaluation_bs_app_id": null,
+            "b_modifydate": 1513563933000,
+            "b_dc_zw_gratis_count_org": null,
+            "b_dc_zw_gratis_count_teacher": null,
+            "b_dc_zw_gratis_count_student": null,
+            "b_other_sys_name": null,
+            "b_poster": "dck",
+            "b_dc_gratis_count_student": null,
+            "b_dc_gzd_gratis_count_org": null,
+            "b_dc_gzd_secretkey": null,
+            "b_other_logo_pic": null,
+            "b_other_bg_pic": null,
+            "b_fv_userid": null,
+            "b_dc_zw_uid": null,
+            "b_createdate": 1513563933000,
+            "b_dc_key": null
+        },
+        "dtkPics": [],
+        "isOpenAntiCheat": false,
+        "paper": {
+            "id": "59e838f2-6124-4e5c-b2e6-e47649408519",
+            "name": "15040-习近平新时代中国特色社会主义思想概论-平时作业5",
+            "status": 1,
+            "needPhoto": 1,
+            "photoInterval": 100,
+            "starttime": 1751040000000,
+            "endtime": 1758729600000,
+            "start_time": "00:00",
+            "end_time": "23:59",
+            "duration": 90,
+            "showtime": 1483200000000,
+            "totalscore": 40,
+            "passscore": 24,
+            "ordertype": 0,
+            "papertype": 0,
+            "remark": "",
+            "sections": [
+                {
+                    "name": "1",
+                    "remark": "单选题",
+                    "id": "1",
+                    "questions": [
+                        {
+                            "id": "1fb572e9-5ac4-490f-9b20-623bd79220c5",
+                            "type": "1",
+                            "content": "自近代中国沦为半殖民地半封建社会以来，无数仁人志士为了救亡图存奔走呐喊、苦苦求索，各种主义、各种力量、各种阶级纷纷登场，但各种救国方案都以失败而告终。由此可见，近代中国社会要发展，必须有新的政党领导革命，新的革命理论作为指导思想。这种新的政党和新的革命理论是指（）",
+                            "showContent": null,
+                            "key": "C",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">民族资产阶级政党毛泽东思想</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">中国共产党毛泽东思想</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">中国共产党马克思列宁主义</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">民族资产阶级政党马克思列宁主义</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "e9f6ffbb-dfa1-4815-8e84-9914def40b87",
+                            "type": "1",
+                            "content": "(  )是新时代坚持和发展中国特色社会主义的根本立场，是贯穿党治国理 政全部活动的一条红线。",
+                            "showContent": null,
+                            "key": "B",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">把马克思主义基本原理与中国实际相结合</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持以人民为中心</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持和发展中国特色社会主义</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">“五位一体”总体布局</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "20401cc2-c174-413f-b302-b2ac64b5bc35",
+                            "type": "1",
+                            "content": "(  )是立党为公、执政为民的本质要求。",
+                            "showContent": null,
+                            "key": "C",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">贯彻新发展理念</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现高质量发展</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">为民造福</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治立场</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "d363b90a-5428-45c3-8f4b-8e6af26743a2",
+                            "type": "1",
+                            "content": "(  )是贯彻群众路线的有效途径。",
+                            "showContent": null,
+                            "key": "B",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">以人民为中心</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">调查研究</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">把人民对美好生活作为奋斗目标</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">构建新发展格局</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "c36e0164-7d05-40a7-8bc0-f7c85225959e",
+                            "type": "1",
+                            "content": "自古以来，“治国之道，富民为始；民之贫富，国之责任”。中国特色社会主义进入新时代，解决发展不平衡不充分问题、缩小城乡区域发展差距、实现人的全面发展和全体人民共同富裕仍然任重道远。这说明中国特色社会主义新时代是（） ①是承前启后、继往开来的新时代 ②是我国已经站在世界舞台中央的新时代 ③是实现全体人民同等富裕的新时代 ④是奋力实现中华民族伟大复兴中国梦的新时代",
+                            "showContent": null,
+                            "key": "C",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "b16acd73-0b64-4b36-a8b2-934a107c5281",
+                            "type": "1",
+                            "content": "<p>生产资料所有制是指人们在生产资料所有、占有、支配和使用等方面所结成的（）。</p>\r\n",
+                            "showContent": null,
+                            "key": "A",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p>经济关系</p>\r\n"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p>人与自然的关系</p>\r\n"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p>政治关系</p>\r\n"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p>人与人的关系</p>\r\n"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "9c935f5f-46c8-402c-8930-34360006387f",
+                            "type": "1",
+                            "content": "中国特色社会主义进入新时代后，我国经济发展的主要特征是什么？（）",
+                            "showContent": null,
+                            "key": "B",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\">高速增长</p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\">高质量发展</p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\">平稳增长</p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\">跨越式发展</p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "48f56226-f483-4dab-bc10-9cb0331291c9",
+                            "type": "1",
+                            "content": "马克思主义中国化最新理论成果是（）",
+                            "showContent": null,
+                            "key": "D",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">邓小平理论</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">“三个代表”重要理想</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">科学发展观</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">习近平新时代中国特色社会主义思想</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "65cf96b4-754b-4464-b593-6794a4985ff0",
+                            "type": "1",
+                            "content": "“制度稳则国家稳，制度强则国家强”。从鸦片战争后的山河破碎、民不聊生，到今日的民富国强、复兴在望，沧海桑田的历史巨变，昭示的是国之兴衰系于制的历史逻辑，可谓“凡将立国，制度不可不察也”。对此理解正确的是（） ①中国特色社会主义制度具有强大的生命力和巨大的优越性 ②制度优势是一个国家的最大优势，制度竞争是国家间最根本的竞争 ③中国特色社会主义制度是实现中华民族伟大复兴的关键一招 ④中国特色社会主义制度是国家治理体系和治理能力的集中体现",
+                            "showContent": null,
+                            "key": "A",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①②</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">③④</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "8e4c978f-8553-441c-bbda-a2ad0f0bafe3",
+                            "type": "1",
+                            "content": "我们党讲宗旨，讲了很多话，但说到底还是(  )这句话。",
+                            "showContent": null,
+                            "key": "B",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">以人民为中心</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">为人民服务</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持人民主体地位</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">群众路线是根本工作路线</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "0ab47229-6a93-4327-beaa-56ce9efb0bc6",
+                            "type": "1",
+                            "content": "中国特色社会主义进入新时代，这是我国发展新的（）",
+                            "showContent": null,
+                            "key": "D",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">目标任务</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">工作主线</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">路径选择</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">历史方位</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "834c38c9-e748-43bb-95df-2cef3765fa1f",
+                            "type": "1",
+                            "content": "(  )是党的工作的最高裁决者和最终评判者。",
+                            "showContent": null,
+                            "key": "B",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实践</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">国务院</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">党中央</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "d82f5a45-a584-4a30-b3ef-21a47378419e",
+                            "type": "1",
+                            "content": "中国共产党区别于其他政党的显著标志是(  )。",
+                            "showContent": null,
+                            "key": "B",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">深化改革</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民立场</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">促进高质量发展</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实事求是</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "d9bbb9f8-7992-4faa-8924-d48cc4de9449",
+                            "type": "1",
+                            "content": "实现全体人民共同富裕的宏伟目标，最终靠的是(  )。",
+                            "showContent": null,
+                            "key": "D",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">奋斗</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实干</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">发展</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "492d09b0-b606-4b29-88fd-eff995e9bcdb",
+                            "type": "1",
+                            "content": "回望来路，面向未来，正如习近平总书记所说：“只要我们坚持党的领导、坚定走中国特色社会主义道路，就一定能够办成更多像脱贫攻坚这样的大事难事，不断从胜利走向新的胜利。”这表明中国特色社会主义道路是（） ①创造人民美好生活的必由之路 ②新时代我国发展壮大的必由之路 ③实现中华民族伟大复兴的必由之路 ④党走好新的赶考之路的必由之路",
+                            "showContent": null,
+                            "key": "A",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "3c31ab70-ee10-49f7-960e-da5c5dcb58c4",
+                            "type": "1",
+                            "content": "中国新民主主义革命的胜利，使中华民族的历史发生了翻天覆地的巨大变化。中国人民从此站了起来，当家作主，真正成为新国家、新社会的主人。之所以能做出这样的判断，是因为（） ①新民主主义革命的领导阶级为无产阶级 ②新民主主义革命的性质是社会主义革命 ③新民主主义革命走出了一条城市包围农村，武装夺取政权的中国革命道路 ④新民主主义革命的胜利彻底结束了旧中国半殖民地半封建社会的历史",
+                            "showContent": null,
+                            "key": "D",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "5b714a26-3e33-4465-89be-ddf2560ca0c2",
+                            "type": "1",
+                            "content": "习近平在庆祝中国共产党成立100周年大会上的讲话指出，中国共产党团结带领中国人民进行的一切奋斗，一切牺牲，一切创造归结起来，就是一个主题。这个主题是（）",
+                            "showContent": null,
+                            "key": "A",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现中华民族伟大复兴</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">废除帝国主义，在中国的一切特权</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">取得民族独立人民解放</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">结束旧中国半殖民地半封建社会的历史</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "de27dd89-51cd-44f1-8916-f2d9eab651b6",
+                            "type": "1",
+                            "content": "新时代要坚持以人民为中心，在推动社会全面进步中促进(  )的全面发展。",
+                            "showContent": null,
+                            "key": "A",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">经济</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">文化</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "e06c5970-16ff-45fa-a137-10800acab89d",
+                            "type": "1",
+                            "content": "(  )是党执政的最大底气，也是党执政最深厚的根基。",
+                            "showContent": null,
+                            "key": "D",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现共产主义理想</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">物质基础雄厚</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">有丰富经验</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        },
+                        {
+                            "id": "7aa62726-7a29-4ce0-90b6-811df38b2146",
+                            "type": "1",
+                            "content": "(  )始终是党的生命线和根本工作路线，是我们党永葆青春活力和战斗力 的重要传家宝。",
+                            "showContent": null,
+                            "key": "A",
+                            "score": 2,
+                            "ext": null,
+                            "options": [
+                                {
+                                    "alisa": "A",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">群众路线</span></p>"
+                                },
+                                {
+                                    "alisa": "B",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">经济路线</span></p>"
+                                },
+                                {
+                                    "alisa": "C",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民立场</span></p>"
+                                },
+                                {
+                                    "alisa": "D",
+                                    "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治立场</span></p>"
+                                }
+                            ],
+                            "delete": false
+                        }
+                    ],
+                    "rnum": 0,
+                    "rtype": 0,
+                    "rlevel": 0,
+                    "rdbid": null,
+                    "rscore": 0,
+                    "trealType": null,
+                    "tlevel": null,
+                    "tdbid": null,
+                    "tnum": null,
+                    "tscore": null,
+                    "questionIds": [
+                        "1fb572e9-5ac4-490f-9b20-623bd79220c5",
+                        "e9f6ffbb-dfa1-4815-8e84-9914def40b87",
+                        "20401cc2-c174-413f-b302-b2ac64b5bc35",
+                        "d363b90a-5428-45c3-8f4b-8e6af26743a2",
+                        "c36e0164-7d05-40a7-8bc0-f7c85225959e",
+                        "b16acd73-0b64-4b36-a8b2-934a107c5281",
+                        "9c935f5f-46c8-402c-8930-34360006387f",
+                        "48f56226-f483-4dab-bc10-9cb0331291c9",
+                        "65cf96b4-754b-4464-b593-6794a4985ff0",
+                        "8e4c978f-8553-441c-bbda-a2ad0f0bafe3",
+                        "0ab47229-6a93-4327-beaa-56ce9efb0bc6",
+                        "834c38c9-e748-43bb-95df-2cef3765fa1f",
+                        "d82f5a45-a584-4a30-b3ef-21a47378419e",
+                        "d9bbb9f8-7992-4faa-8924-d48cc4de9449",
+                        "492d09b0-b606-4b29-88fd-eff995e9bcdb",
+                        "3c31ab70-ee10-49f7-960e-da5c5dcb58c4",
+                        "5b714a26-3e33-4465-89be-ddf2560ca0c2",
+                        "de27dd89-51cd-44f1-8916-f2d9eab651b6",
+                        "e06c5970-16ff-45fa-a137-10800acab89d",
+                        "7aa62726-7a29-4ce0-90b6-811df38b2146"
+                    ]
+                }
+            ],
+            "departments": [],
+            "cid": null,
+            "schoolId": "7cfafa2a-415d-415d-ba2d-018fde084ef6",
+            "showKey": true,
+            "showMode": 1,
+            "questions": [
+                {
+                    "id": "1fb572e9-5ac4-490f-9b20-623bd79220c5",
+                    "type": "1",
+                    "content": "自近代中国沦为半殖民地半封建社会以来，无数仁人志士为了救亡图存奔走呐喊、苦苦求索，各种主义、各种力量、各种阶级纷纷登场，但各种救国方案都以失败而告终。由此可见，近代中国社会要发展，必须有新的政党领导革命，新的革命理论作为指导思想。这种新的政党和新的革命理论是指（）",
+                    "showContent": null,
+                    "key": "C",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">民族资产阶级政党毛泽东思想</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">中国共产党毛泽东思想</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">中国共产党马克思列宁主义</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">民族资产阶级政党马克思列宁主义</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "e9f6ffbb-dfa1-4815-8e84-9914def40b87",
+                    "type": "1",
+                    "content": "(  )是新时代坚持和发展中国特色社会主义的根本立场，是贯穿党治国理 政全部活动的一条红线。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">把马克思主义基本原理与中国实际相结合</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持以人民为中心</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持和发展中国特色社会主义</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">“五位一体”总体布局</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "20401cc2-c174-413f-b302-b2ac64b5bc35",
+                    "type": "1",
+                    "content": "(  )是立党为公、执政为民的本质要求。",
+                    "showContent": null,
+                    "key": "C",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">贯彻新发展理念</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现高质量发展</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">为民造福</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治立场</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "d363b90a-5428-45c3-8f4b-8e6af26743a2",
+                    "type": "1",
+                    "content": "(  )是贯彻群众路线的有效途径。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">以人民为中心</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">调查研究</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">把人民对美好生活作为奋斗目标</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">构建新发展格局</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "c36e0164-7d05-40a7-8bc0-f7c85225959e",
+                    "type": "1",
+                    "content": "自古以来，“治国之道，富民为始；民之贫富，国之责任”。中国特色社会主义进入新时代，解决发展不平衡不充分问题、缩小城乡区域发展差距、实现人的全面发展和全体人民共同富裕仍然任重道远。这说明中国特色社会主义新时代是（） ①是承前启后、继往开来的新时代 ②是我国已经站在世界舞台中央的新时代 ③是实现全体人民同等富裕的新时代 ④是奋力实现中华民族伟大复兴中国梦的新时代",
+                    "showContent": null,
+                    "key": "C",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "b16acd73-0b64-4b36-a8b2-934a107c5281",
+                    "type": "1",
+                    "content": "<p>生产资料所有制是指人们在生产资料所有、占有、支配和使用等方面所结成的（）。</p>\r\n",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p>经济关系</p>\r\n"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p>人与自然的关系</p>\r\n"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p>政治关系</p>\r\n"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p>人与人的关系</p>\r\n"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "9c935f5f-46c8-402c-8930-34360006387f",
+                    "type": "1",
+                    "content": "中国特色社会主义进入新时代后，我国经济发展的主要特征是什么？（）",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\">高速增长</p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\">高质量发展</p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\">平稳增长</p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\">跨越式发展</p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "48f56226-f483-4dab-bc10-9cb0331291c9",
+                    "type": "1",
+                    "content": "马克思主义中国化最新理论成果是（）",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">邓小平理论</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">“三个代表”重要理想</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">科学发展观</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">习近平新时代中国特色社会主义思想</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "65cf96b4-754b-4464-b593-6794a4985ff0",
+                    "type": "1",
+                    "content": "“制度稳则国家稳，制度强则国家强”。从鸦片战争后的山河破碎、民不聊生，到今日的民富国强、复兴在望，沧海桑田的历史巨变，昭示的是国之兴衰系于制的历史逻辑，可谓“凡将立国，制度不可不察也”。对此理解正确的是（） ①中国特色社会主义制度具有强大的生命力和巨大的优越性 ②制度优势是一个国家的最大优势，制度竞争是国家间最根本的竞争 ③中国特色社会主义制度是实现中华民族伟大复兴的关键一招 ④中国特色社会主义制度是国家治理体系和治理能力的集中体现",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①②</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">③④</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "8e4c978f-8553-441c-bbda-a2ad0f0bafe3",
+                    "type": "1",
+                    "content": "我们党讲宗旨，讲了很多话，但说到底还是(  )这句话。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">以人民为中心</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">为人民服务</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持人民主体地位</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">群众路线是根本工作路线</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "0ab47229-6a93-4327-beaa-56ce9efb0bc6",
+                    "type": "1",
+                    "content": "中国特色社会主义进入新时代，这是我国发展新的（）",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">目标任务</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">工作主线</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">路径选择</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">历史方位</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "834c38c9-e748-43bb-95df-2cef3765fa1f",
+                    "type": "1",
+                    "content": "(  )是党的工作的最高裁决者和最终评判者。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实践</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">国务院</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">党中央</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "d82f5a45-a584-4a30-b3ef-21a47378419e",
+                    "type": "1",
+                    "content": "中国共产党区别于其他政党的显著标志是(  )。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">深化改革</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民立场</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">促进高质量发展</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实事求是</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "d9bbb9f8-7992-4faa-8924-d48cc4de9449",
+                    "type": "1",
+                    "content": "实现全体人民共同富裕的宏伟目标，最终靠的是(  )。",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">奋斗</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实干</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">发展</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "492d09b0-b606-4b29-88fd-eff995e9bcdb",
+                    "type": "1",
+                    "content": "回望来路，面向未来，正如习近平总书记所说：“只要我们坚持党的领导、坚定走中国特色社会主义道路，就一定能够办成更多像脱贫攻坚这样的大事难事，不断从胜利走向新的胜利。”这表明中国特色社会主义道路是（） ①创造人民美好生活的必由之路 ②新时代我国发展壮大的必由之路 ③实现中华民族伟大复兴的必由之路 ④党走好新的赶考之路的必由之路",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "3c31ab70-ee10-49f7-960e-da5c5dcb58c4",
+                    "type": "1",
+                    "content": "中国新民主主义革命的胜利，使中华民族的历史发生了翻天覆地的巨大变化。中国人民从此站了起来，当家作主，真正成为新国家、新社会的主人。之所以能做出这样的判断，是因为（） ①新民主主义革命的领导阶级为无产阶级 ②新民主主义革命的性质是社会主义革命 ③新民主主义革命走出了一条城市包围农村，武装夺取政权的中国革命道路 ④新民主主义革命的胜利彻底结束了旧中国半殖民地半封建社会的历史",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "5b714a26-3e33-4465-89be-ddf2560ca0c2",
+                    "type": "1",
+                    "content": "习近平在庆祝中国共产党成立100周年大会上的讲话指出，中国共产党团结带领中国人民进行的一切奋斗，一切牺牲，一切创造归结起来，就是一个主题。这个主题是（）",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现中华民族伟大复兴</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">废除帝国主义，在中国的一切特权</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">取得民族独立人民解放</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">结束旧中国半殖民地半封建社会的历史</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "de27dd89-51cd-44f1-8916-f2d9eab651b6",
+                    "type": "1",
+                    "content": "新时代要坚持以人民为中心，在推动社会全面进步中促进(  )的全面发展。",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">经济</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">文化</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "e06c5970-16ff-45fa-a137-10800acab89d",
+                    "type": "1",
+                    "content": "(  )是党执政的最大底气，也是党执政最深厚的根基。",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现共产主义理想</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">物质基础雄厚</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">有丰富经验</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "7aa62726-7a29-4ce0-90b6-811df38b2146",
+                    "type": "1",
+                    "content": "(  )始终是党的生命线和根本工作路线，是我们党永葆青春活力和战斗力 的重要传家宝。",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">群众路线</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">经济路线</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民立场</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治立场</span></p>"
+                        }
+                    ],
+                    "delete": false
+                }
+            ],
+            "questionCount": 20,
+            "allQuestions": [
+                {
+                    "id": "1fb572e9-5ac4-490f-9b20-623bd79220c5",
+                    "type": "1",
+                    "content": "自近代中国沦为半殖民地半封建社会以来，无数仁人志士为了救亡图存奔走呐喊、苦苦求索，各种主义、各种力量、各种阶级纷纷登场，但各种救国方案都以失败而告终。由此可见，近代中国社会要发展，必须有新的政党领导革命，新的革命理论作为指导思想。这种新的政党和新的革命理论是指（）",
+                    "showContent": null,
+                    "key": "C",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">民族资产阶级政党毛泽东思想</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">中国共产党毛泽东思想</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">中国共产党马克思列宁主义</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">民族资产阶级政党马克思列宁主义</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "e9f6ffbb-dfa1-4815-8e84-9914def40b87",
+                    "type": "1",
+                    "content": "(  )是新时代坚持和发展中国特色社会主义的根本立场，是贯穿党治国理 政全部活动的一条红线。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">把马克思主义基本原理与中国实际相结合</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持以人民为中心</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持和发展中国特色社会主义</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">“五位一体”总体布局</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "20401cc2-c174-413f-b302-b2ac64b5bc35",
+                    "type": "1",
+                    "content": "(  )是立党为公、执政为民的本质要求。",
+                    "showContent": null,
+                    "key": "C",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">贯彻新发展理念</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现高质量发展</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">为民造福</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治立场</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "d363b90a-5428-45c3-8f4b-8e6af26743a2",
+                    "type": "1",
+                    "content": "(  )是贯彻群众路线的有效途径。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">以人民为中心</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">调查研究</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">把人民对美好生活作为奋斗目标</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">构建新发展格局</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "c36e0164-7d05-40a7-8bc0-f7c85225959e",
+                    "type": "1",
+                    "content": "自古以来，“治国之道，富民为始；民之贫富，国之责任”。中国特色社会主义进入新时代，解决发展不平衡不充分问题、缩小城乡区域发展差距、实现人的全面发展和全体人民共同富裕仍然任重道远。这说明中国特色社会主义新时代是（） ①是承前启后、继往开来的新时代 ②是我国已经站在世界舞台中央的新时代 ③是实现全体人民同等富裕的新时代 ④是奋力实现中华民族伟大复兴中国梦的新时代",
+                    "showContent": null,
+                    "key": "C",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "b16acd73-0b64-4b36-a8b2-934a107c5281",
+                    "type": "1",
+                    "content": "<p>生产资料所有制是指人们在生产资料所有、占有、支配和使用等方面所结成的（）。</p>\r\n",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p>经济关系</p>\r\n"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p>人与自然的关系</p>\r\n"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p>政治关系</p>\r\n"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p>人与人的关系</p>\r\n"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "9c935f5f-46c8-402c-8930-34360006387f",
+                    "type": "1",
+                    "content": "中国特色社会主义进入新时代后，我国经济发展的主要特征是什么？（）",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\">高速增长</p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\">高质量发展</p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\">平稳增长</p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\">跨越式发展</p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "48f56226-f483-4dab-bc10-9cb0331291c9",
+                    "type": "1",
+                    "content": "马克思主义中国化最新理论成果是（）",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">邓小平理论</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">“三个代表”重要理想</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">科学发展观</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">习近平新时代中国特色社会主义思想</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "65cf96b4-754b-4464-b593-6794a4985ff0",
+                    "type": "1",
+                    "content": "“制度稳则国家稳，制度强则国家强”。从鸦片战争后的山河破碎、民不聊生，到今日的民富国强、复兴在望，沧海桑田的历史巨变，昭示的是国之兴衰系于制的历史逻辑，可谓“凡将立国，制度不可不察也”。对此理解正确的是（） ①中国特色社会主义制度具有强大的生命力和巨大的优越性 ②制度优势是一个国家的最大优势，制度竞争是国家间最根本的竞争 ③中国特色社会主义制度是实现中华民族伟大复兴的关键一招 ④中国特色社会主义制度是国家治理体系和治理能力的集中体现",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①②</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">③④</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "8e4c978f-8553-441c-bbda-a2ad0f0bafe3",
+                    "type": "1",
+                    "content": "我们党讲宗旨，讲了很多话，但说到底还是(  )这句话。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">以人民为中心</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">为人民服务</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">坚持人民主体地位</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">群众路线是根本工作路线</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "0ab47229-6a93-4327-beaa-56ce9efb0bc6",
+                    "type": "1",
+                    "content": "中国特色社会主义进入新时代，这是我国发展新的（）",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">目标任务</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">工作主线</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">路径选择</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">历史方位</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "834c38c9-e748-43bb-95df-2cef3765fa1f",
+                    "type": "1",
+                    "content": "(  )是党的工作的最高裁决者和最终评判者。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实践</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">国务院</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">党中央</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "d82f5a45-a584-4a30-b3ef-21a47378419e",
+                    "type": "1",
+                    "content": "中国共产党区别于其他政党的显著标志是(  )。",
+                    "showContent": null,
+                    "key": "B",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">深化改革</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民立场</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">促进高质量发展</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实事求是</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "d9bbb9f8-7992-4faa-8924-d48cc4de9449",
+                    "type": "1",
+                    "content": "实现全体人民共同富裕的宏伟目标，最终靠的是(  )。",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">奋斗</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实干</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">发展</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "492d09b0-b606-4b29-88fd-eff995e9bcdb",
+                    "type": "1",
+                    "content": "回望来路，面向未来，正如习近平总书记所说：“只要我们坚持党的领导、坚定走中国特色社会主义道路，就一定能够办成更多像脱贫攻坚这样的大事难事，不断从胜利走向新的胜利。”这表明中国特色社会主义道路是（） ①创造人民美好生活的必由之路 ②新时代我国发展壮大的必由之路 ③实现中华民族伟大复兴的必由之路 ④党走好新的赶考之路的必由之路",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "3c31ab70-ee10-49f7-960e-da5c5dcb58c4",
+                    "type": "1",
+                    "content": "中国新民主主义革命的胜利，使中华民族的历史发生了翻天覆地的巨大变化。中国人民从此站了起来，当家作主，真正成为新国家、新社会的主人。之所以能做出这样的判断，是因为（） ①新民主主义革命的领导阶级为无产阶级 ②新民主主义革命的性质是社会主义革命 ③新民主主义革命走出了一条城市包围农村，武装夺取政权的中国革命道路 ④新民主主义革命的胜利彻底结束了旧中国半殖民地半封建社会的历史",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②④</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">①③</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"font-family:Calibri;\"><span style=\"font-family:Calibri;\">②③</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">①④</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "5b714a26-3e33-4465-89be-ddf2560ca0c2",
+                    "type": "1",
+                    "content": "习近平在庆祝中国共产党成立100周年大会上的讲话指出，中国共产党团结带领中国人民进行的一切奋斗，一切牺牲，一切创造归结起来，就是一个主题。这个主题是（）",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现中华民族伟大复兴</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">废除帝国主义，在中国的一切特权</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">取得民族独立人民解放</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">结束旧中国半殖民地半封建社会的历史</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "de27dd89-51cd-44f1-8916-f2d9eab651b6",
+                    "type": "1",
+                    "content": "新时代要坚持以人民为中心，在推动社会全面进步中促进(  )的全面发展。",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">经济</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">文化</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "e06c5970-16ff-45fa-a137-10800acab89d",
+                    "type": "1",
+                    "content": "(  )是党执政的最大底气，也是党执政最深厚的根基。",
+                    "showContent": null,
+                    "key": "D",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">实现共产主义理想</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">物质基础雄厚</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">有丰富经验</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民</span></p>"
+                        }
+                    ],
+                    "delete": false
+                },
+                {
+                    "id": "7aa62726-7a29-4ce0-90b6-811df38b2146",
+                    "type": "1",
+                    "content": "(  )始终是党的生命线和根本工作路线，是我们党永葆青春活力和战斗力 的重要传家宝。",
+                    "showContent": null,
+                    "key": "A",
+                    "score": 2,
+                    "ext": null,
+                    "options": [
+                        {
+                            "alisa": "A",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">群众路线</span></p>"
+                        },
+                        {
+                            "alisa": "B",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">经济路线</span></p>"
+                        },
+                        {
+                            "alisa": "C",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">人民立场</span></p>"
+                        },
+                        {
+                            "alisa": "D",
+                            "text": "<p style=\"\"><span style=\"font-family:Calibri;\">政治立场</span></p>"
+                        }
+                    ],
+                    "delete": false
+                }
+            ],
+            "questionIds": [
+                "1fb572e9-5ac4-490f-9b20-623bd79220c5",
+                "e9f6ffbb-dfa1-4815-8e84-9914def40b87",
+                "20401cc2-c174-413f-b302-b2ac64b5bc35",
+                "d363b90a-5428-45c3-8f4b-8e6af26743a2",
+                "c36e0164-7d05-40a7-8bc0-f7c85225959e",
+                "b16acd73-0b64-4b36-a8b2-934a107c5281",
+                "9c935f5f-46c8-402c-8930-34360006387f",
+                "48f56226-f483-4dab-bc10-9cb0331291c9",
+                "65cf96b4-754b-4464-b593-6794a4985ff0",
+                "8e4c978f-8553-441c-bbda-a2ad0f0bafe3",
+                "0ab47229-6a93-4327-beaa-56ce9efb0bc6",
+                "834c38c9-e748-43bb-95df-2cef3765fa1f",
+                "d82f5a45-a584-4a30-b3ef-21a47378419e",
+                "d9bbb9f8-7992-4faa-8924-d48cc4de9449",
+                "492d09b0-b606-4b29-88fd-eff995e9bcdb",
+                "3c31ab70-ee10-49f7-960e-da5c5dcb58c4",
+                "5b714a26-3e33-4465-89be-ddf2560ca0c2",
+                "de27dd89-51cd-44f1-8916-f2d9eab651b6",
+                "e06c5970-16ff-45fa-a137-10800acab89d",
+                "7aa62726-7a29-4ce0-90b6-811df38b2146"
+            ]
+        },
+        "school": {
+            "b_degree_code": null,
+            "b_cjdc_gratis_count_student": 0,
+            "b_order": 1,
+            "b_dc_gratis_count_org": 1,
+            "b_anti_cheat": 0,
+            "b_dc_gratis_count_teacher": 1,
+            "b_thesis_template": null,
+            "b_is_thesis_mark": 1,
+            "b_dc_gzd_schoolcode": null,
+            "b_type": "school",
+            "b_name": "中国地质大学",
+            "b_thesis_pattern": "2",
+            "ai_evaluation_enable": null,
+            "b_pid": "0",
+            "b_dc_fee": 20,
+            "b_canzks": 0,
+            "b_dc_gzd_username": null,
+            "b_category": null,
+            "b_id": "7cfafa2a-415d-415d-ba2d-018fde084ef6",
+            "b_dc_userid": "765907",
+            "b_subdomain": "0143",
+            "b_dc_zw_fee": null,
+            "b_modifyor": "lzjia",
+            "b_code": "0143",
+            "b_is_society": null,
+            "b_practice_pattern": 1,
+            "b_fv_key": "3abd52e3ce424aa1bf4fb0dfb51bd9d7",
+            "ai_evaluation_bs_app_key": null,
+            "dc_mode": "wp",
+            "ai_evaluation_app_key": null,
+            "b_cjdc_zw_gratis_count": null,
+            "b_is_verify_aptitude": 0,
+            "b_cjdc_gzd_gratis_count": null,
+            "ai_evaluation_app_id": null,
+            "b_remark": null,
+            "b_is_coerce_fc": 1,
+            "ai_evaluation_bs_amount": null,
+            "b_is_college_check": 0,
+            "b_dc_gzd_fee": null,
+            "b_dc_gzd_gratis_count_student": null,
+            "b_dc_gzd_gratis_count_teacher": null,
+            "b_status": 1,
+            "ai_evaluation_amount": null,
+            "b_dc_zw_pwd": null,
+            "ai_evaluation_bs_app_id": null,
+            "b_modifydate": 1740453502000,
+            "b_dc_zw_gratis_count_org": null,
+            "b_dc_zw_gratis_count_teacher": null,
+            "b_dc_zw_gratis_count_student": null,
+            "b_other_sys_name": "中国地质大学（武汉）自考教学云平台",
+            "b_poster": "rgf",
+            "b_dc_gratis_count_student": 2,
+            "b_dc_gzd_gratis_count_org": null,
+            "b_dc_gzd_secretkey": null,
+            "b_other_logo_pic": "0143.png",
+            "b_other_bg_pic": "0143.jpg",
+            "b_fv_userid": "12503",
+            "b_dc_zw_uid": null,
+            "b_createdate": 1551077022000,
+            "b_dc_key": "45b18b56d7394576980411344eb66209"
+        },
+        "c_type": -1,
+        "bm_type": "KJXX",
+        "detail": {
+            "e_endtime": 1757759092000,
+            "e_ip": "14.155.72.157",
+            "t_id": "9c00d676-b1ca-4575-9f59-649bcbb28246",
+            "u_no": "014324211459",
+            "exam_form_type": "1",
+            "c_code": "15040",
+            "c_id": "15040",
+            "e_pid": "59e838f2-6124-4e5c-b2e6-e47649408519",
+            "face_audit_status": null,
+            "e_uid": "03ca90c7-13e2-4a13-8ffb-8a2358478e73",
+            "u_certino": "421126199612145710",
+            "e_check": "{\"Q-1fb572e9-5ac4-490f-9b20-623bd79220c5\":0,\"Q-e9f6ffbb-dfa1-4815-8e84-9914def40b87\":2,\"Q-20401cc2-c174-413f-b302-b2ac64b5bc35\":2,\"Q-d363b90a-5428-45c3-8f4b-8e6af26743a2\":2,\"Q-c36e0164-7d05-40a7-8bc0-f7c85225959e\":2,\"Q-b16acd73-0b64-4b36-a8b2-934a107c5281\":2,\"Q-9c935f5f-46c8-402c-8930-34360006387f\":2,\"Q-48f56226-f483-4dab-bc10-9cb0331291c9\":2,\"Q-65cf96b4-754b-4464-b593-6794a4985ff0\":2,\"Q-8e4c978f-8553-441c-bbda-a2ad0f0bafe3\":2,\"Q-0ab47229-6a93-4327-beaa-56ce9efb0bc6\":2,\"Q-834c38c9-e748-43bb-95df-2cef3765fa1f\":2,\"Q-d82f5a45-a584-4a30-b3ef-21a47378419e\":2,\"Q-d9bbb9f8-7992-4faa-8924-d48cc4de9449\":2,\"Q-492d09b0-b606-4b29-88fd-eff995e9bcdb\":2,\"Q-3c31ab70-ee10-49f7-960e-da5c5dcb58c4\":2,\"Q-5b714a26-3e33-4465-89be-ddf2560ca0c2\":2,\"Q-de27dd89-51cd-44f1-8916-f2d9eab651b6\":2,\"Q-e06c5970-16ff-45fa-a137-10800acab89d\":2,\"Q-7aa62726-7a29-4ce0-90b6-811df38b2146\":2}",
+            "t_is_show_zhcy_subanswer": 1,
+            "face_audit_user": null,
+            "e_timecost": 9,
+            "checker_name": null,
+            "e_score": 38,
+            "e_enable_time": null,
+            "e_checker_id": null,
+            "u_realname": "陈杰朝",
+            "e_save_time": 1757759092000,
+            "e_status": 2,
+            "e_channel": 1,
+            "e_pdata": null,
+            "t_year": 2025,
+            "e_starttime": 1757758528000,
+            "c_name": "习近平新时代中国特色社会主义思想概论",
+            "e_id": "7f48c1b6-970e-4f41-b0ba-59bf4f2b4c73",
+            "e_enabler_id": null,
+            "e_check_time": null,
+            "t_month": 10,
+            "e_data": "{\"Q-65cf96b4-754b-4464-b593-6794a4985ff0\":\"A\",\"Q-d9bbb9f8-7992-4faa-8924-d48cc4de9449\":\"D\",\"Q-c36e0164-7d05-40a7-8bc0-f7c85225959e\":\"C\",\"Q-834c38c9-e748-43bb-95df-2cef3765fa1f\":\"B\",\"Q-de27dd89-51cd-44f1-8916-f2d9eab651b6\":\"A\",\"Q-492d09b0-b606-4b29-88fd-eff995e9bcdb\":\"A\",\"Q-e06c5970-16ff-45fa-a137-10800acab89d\":\"D\",\"Q-1fb572e9-5ac4-490f-9b20-623bd79220c5\":\"B\",\"Q-0ab47229-6a93-4327-beaa-56ce9efb0bc6\":\"D\",\"Q-5b714a26-3e33-4465-89be-ddf2560ca0c2\":\"A\",\"Q-d82f5a45-a584-4a30-b3ef-21a47378419e\":\"B\",\"u_id\":\"03ca90c7-13e2-4a13-8ffb-8a2358478e73\",\"Q-20401cc2-c174-413f-b302-b2ac64b5bc35\":\"C\",\"Q-b16acd73-0b64-4b36-a8b2-934a107c5281\":\"A\",\"Q-9c935f5f-46c8-402c-8930-34360006387f\":\"B\",\"Q-e9f6ffbb-dfa1-4815-8e84-9914def40b87\":\"B\",\"Q-7aa62726-7a29-4ce0-90b6-811df38b2146\":\"A\",\"Q-8e4c978f-8553-441c-bbda-a2ad0f0bafe3\":\"B\",\"Q-d363b90a-5428-45c3-8f4b-8e6af26743a2\":\"B\",\"Q-48f56226-f483-4dab-bc10-9cb0331291c9\":\"D\",\"Q-3c31ab70-ee10-49f7-960e-da5c5dcb58c4\":\"D\"}",
+            "u_photo": "https://att.whxunw.com/upload/userPhotos/7cfafa2a-415d-415d-ba2d-018fde084ef6/26931e59-0634-425e-97de-539a2b88f4b3/2024123108/03ca90c7-13e2-4a13-8ffb-8a2358478e73.jpg"
+        },
+        "categories": [
+            {
+                "t_name": "默认试题集",
+                "total": 0,
+                "t_id": "e93fcbc6-ec1e-4d88-b529-17eec16a8496",
+                "t_createdate": 1741367649000,
+                "t_default": 1,
+                "t_uid": "03ca90c7-13e2-4a13-8ffb-8a2358478e73"
+            }
+        ],
+        "module_name": "kjxx",
+        "user": {
+            "u_status": 1,
+            "u_phone_certtime": 1743436088000,
+            "u_type": null,
+            "spec_id": "081401",
+            "s_status": null,
+            "u_branchid": "26931e59-0634-425e-97de-539a2b88f4b3",
+            "u_class": "09班",
+            "u_wxunionid": null,
+            "s_edulevel": "B",
+            "u_username": null,
+            "u_qqopenid": null,
+            "u_logintimes": 1,
+            "u_userpass": "7E31B7415604AA0AFE1579F7695F8E8A",
+            "h_name": "武汉交通专修学院",
+            "t_name": null,
+            "u_spec_name": null,
+            "s_code": "0143",
+            "u_instructor": null,
+            "u_secondaryid": null,
+            "u_graduation_no": null,
+            "h_code": "211",
+            "u_score": null,
+            "u_ndm": "242",
+            "spec_code": "081401",
+            "u_remark": null,
+            "u_xwz_no": null,
+            "u_photo": "https://att.whxunw.com/upload/userPhotos/7cfafa2a-415d-415d-ba2d-018fde084ef6/26931e59-0634-425e-97de-539a2b88f4b3/2024123108/03ca90c7-13e2-4a13-8ffb-8a2358478e73.jpg",
+            "u_teachpointid": null,
+            "spec_name": "地质工程",
+            "u_address": null,
+            "u_no": "014324211459",
+            "u_xxxs": "15",
+            "wx_id": null,
+            "u_certino": "421126199612145710",
+            "u_graduation_date": null,
+            "u_partner_id": null,
+            "u_unionid": null,
+            "u_schoolid": "7cfafa2a-415d-415d-ba2d-018fde084ef6",
+            "u_name_pin_yin": null,
+            "u_integrity_is_pass": null,
+            "u_collegeid": "bedf5ecc-3ebc-4105-acd5-bb6b3f0a2bda",
+            "u_realname": "陈杰朝",
+            "u_sub_branchid": null,
+            "u_spec_id": "081401",
+            "u_phone_certified": 1,
+            "u_email": "17717520975@163.com",
+            "u_id": "03ca90c7-13e2-4a13-8ffb-8a2358478e73",
+            "u_salt": "6jqvy59bgf",
+            "u_phone": "17717520975",
+            "u_graduation_ndm": null,
+            "u_integrity_url": null,
+            "u_lastlogin": 1739978427000,
+            "u_regdate": 1735562382000,
+            "s_name": "中国地质大学",
+            "u_spec_code": null
+        }
+    },
+    "message": null
+}
