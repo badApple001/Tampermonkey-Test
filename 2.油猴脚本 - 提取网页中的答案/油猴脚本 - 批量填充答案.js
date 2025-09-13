@@ -19,8 +19,9 @@
     }
 
     async function run() {
-        let answersstr = "A,D,B,C,C,A,D,B,B,A,B,A,B,ABD,ABCD";
+        let answersstr = "C,A,A,C,C,B,C,D,C,C,D,D,A,A,B";
         let answers = answersstr.split(',');
+        console.log("运行...");
 
         // 遍历所有题目
         for (const [key, box] of document.querySelectorAll(".liBox").entries()) {
@@ -56,7 +57,11 @@
         }
     }
 
+
+    console.log("脚本延迟执行..");
     // 等待4秒后开始
-    setTimeout(run, 4000);
+    setTimeout(async () => {
+        await run();
+    }, 4000);
 
 })();
