@@ -37,9 +37,11 @@
                     "Authorization": `Bearer ${API_KEY}`
                 },
                 data: JSON.stringify({
-                    model: "deepseek-chat",
+                    model: "deepseek-v3",
                     messages: [{ role: "user", content: message }],
-                    temperature: 0.7
+                    temperature: 0.1,
+                    top_p: 0.9,
+                    max_tokens: 2000
                 }),
                 onload: function (response) {
                     const data = JSON.parse(response.responseText);
@@ -67,7 +69,7 @@
                     const strippedNewCode = newCode.replace(/\s+/g, '');
                     if (lastCode != strippedNewCode) {
                         console.log("[热更] 检测到远程模块更新，正在替换...");
-                        lastCode = strippedNewCode;
+                        lastCode = strippedNewCode + '';
                         try {
                             // 执行远程代码，要求远程脚本必须返回一个对象
                             let newModule = eval(`${newCode}`)(callDeepSeekAPI);

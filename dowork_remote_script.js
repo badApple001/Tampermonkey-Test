@@ -41,17 +41,65 @@
             }
 
             //做完了
+            //做完题后 检测倒计时 是否可以交卷
             if (this.unlockIndex >= this.topics.length) {
-                if (this.end === false) {
-                    this.end = true;
+
+                if (this.end === true) {
+                    return;
+                }
+
+                // 找到倒计时元素（这里用 p.color.time，也可以改成更精确的选择器）
+                const countdownEl = document.querySelector(".countdown p.color.time");
+                if (!countdownEl) return;
+
+                const timeText = countdownEl.innerText.trim(); // 例如 "01:21:18"
+                const parts = timeText.split(":").map(Number);
+                if (parts.length !== 3) return;
+                const totalSeconds = parts[0] * 3600 + parts[1] * 60 + parts[2];
+                if (totalSeconds <= 0) {
+
                     console.log("题目已经做完");
                     this.play_over_effect();
+
+                    // 找到包含文本为 "提交" 的按钮
+                    const submitButton = Array.from(document.querySelectorAll("button"))
+                        .find(btn => btn.innerText.trim() === "提交");
+
+                    // 如果找到了就点击
+                    if (submitButton) {
+                        submitButton.click();
+                        console.log("提交按钮已点击");
+
+                        setTimeout(() => {
+
+                            // 找到当前页面中所有弹窗
+                            const messageBoxes = document.querySelectorAll(".el-message-box");
+
+                            messageBoxes.forEach(box => {
+                                // 找到按钮区域
+                                const btns = box.querySelectorAll(".el-message-box__btns button");
+                                // 找到文本为“确定”的按钮
+                                const confirmBtn = Array.from(btns).find(btn => btn.innerText.trim() === "确定");
+
+                                if (confirmBtn) {
+                                    confirmBtn.click();
+                                    console.log("弹窗确定按钮已点击");
+                                    this.end = true;
+                                }
+                            });
+
+                        }, 200); // 给选项点击留一点延迟
+
+                    } else {
+                        console.log("未找到提交按钮");
+                    }
+                } else {
+                    console.log("剩余秒数:", totalSeconds);
                 }
             }
             else {
                 await this.handle_question_dialog();
             }
-
 
         },
 
