@@ -55,46 +55,49 @@
                 const parts = timeText.split(":").map(Number);
                 if (parts.length !== 3) return;
                 const totalSeconds = parts[0] * 3600 + parts[1] * 60 + parts[2];
-
-                if (totalSeconds <= 0) {
+                console.log("最短剩余秒数:", totalSeconds);
+                if (totalSeconds === 1) {
 
                     console.log("题目已经做完");
                     this.play_over_effect();
 
-                    // 找到包含文本为 "提交" 的按钮
-                    const submitButton = Array.from(document.querySelectorAll("button"))
-                        .find(btn => btn.innerText.trim() === "提交");
+                    setTimeout(() => {
 
-                    // 如果找到了就点击
-                    if (submitButton) {
-                        submitButton.click();
-                        console.log("提交按钮已点击");
+                        // 找到包含文本为 "提交" 的按钮
+                        const submitButton = Array.from(document.querySelectorAll("button"))
+                            .find(btn => btn.innerText.trim() === "提交");
 
-                        setTimeout(() => {
+                        // 如果找到了就点击
+                        if (submitButton) {
+                            submitButton.click();
+                            console.log("提交按钮已点击");
 
-                            // 找到当前页面中所有弹窗
-                            const messageBoxes = document.querySelectorAll(".el-message-box");
+                            setTimeout(() => {
 
-                            messageBoxes.forEach(box => {
-                                // 找到按钮区域
-                                const btns = box.querySelectorAll(".el-message-box__btns button");
-                                // 找到文本为“确定”的按钮
-                                const confirmBtn = Array.from(btns).find(btn => btn.innerText.trim() === "确定");
+                                // 找到当前页面中所有弹窗
+                                const messageBoxes = document.querySelectorAll(".el-message-box");
 
-                                if (confirmBtn) {
-                                    confirmBtn.click();
-                                    console.log("弹窗确定按钮已点击");
-                                    this.end = true;
-                                }
-                            });
+                                messageBoxes.forEach(box => {
+                                    // 找到按钮区域
+                                    const btns = box.querySelectorAll(".el-message-box__btns button");
+                                    // 找到文本为“确定”的按钮
+                                    const confirmBtn = Array.from(btns).find(btn => btn.innerText.trim() === "确定");
 
-                        }, 200); // 给选项点击留一点延迟
+                                    if (confirmBtn) {
+                                        confirmBtn.click();
+                                        console.log("弹窗确定按钮已点击");
+                                        this.end = true;
+                                    }
+                                });
 
-                    } else {
-                        console.log("未找到提交按钮");
-                    }
-                } else {
-                    console.log("最短剩余秒数:", totalSeconds);
+                            }, 200); // 给选项点击留一点延迟
+
+                        } else {
+                            console.log("未找到提交按钮");
+                        }
+
+                    }, 2000);
+
                 }
             }
             else {
